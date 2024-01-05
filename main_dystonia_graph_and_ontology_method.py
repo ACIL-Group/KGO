@@ -19,6 +19,7 @@ import networkx as nx
 import os
 from rdflib import Graph, Namespace, RDF, RDFS, OWL, XSD, Literal
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 # Change the working directory to where your data is located
 # os.chdir('/Users/danielhier/desktop/networkx')
@@ -26,13 +27,22 @@ import matplotlib.pyplot as plt
 ########################################################
 # Data Files                                           #
 ########################################################
-node_files = ['_dystonia_nodes.csv','_dystonia_proteins_nodes.csv', '_dystonia_genes_nodes.csv', '_dystonia_diseases_nodes.csv', '_dystonia_phenotypes_nodes.csv', '_dystonia_inheritance_nodes.csv', '_dystonia_proteins_GO_CC.csv', '_dystonia_proteins_GO_MF.csv', '_dystonia_proteins_GO_BP.csv']
-edge_files = ['_dystonia_edges.csv','_dystonia_phenotypes_edges.csv', '_dystonia_gene_to_protein_edges.csv', '_dystonia_disease_caused_by_gene_edges.csv', '_dystonia_diseases_is_a_disease_edges.csv', '_dystonia_inheritance_edges.csv', '_dystonia_protein_GO_edges.csv']
 
+# Point to the location where the data is located
+data_dir = Path('data/')
+
+# Declare all of the data files used
+node_files_raw = ['_dystonia_nodes.csv','_dystonia_proteins_nodes.csv', '_dystonia_genes_nodes.csv', '_dystonia_diseases_nodes.csv', '_dystonia_phenotypes_nodes.csv', '_dystonia_inheritance_nodes.csv', '_dystonia_proteins_GO_CC.csv', '_dystonia_proteins_GO_MF.csv', '_dystonia_proteins_GO_BP.csv']
+edge_files_raw = ['_dystonia_edges.csv','_dystonia_phenotypes_edges.csv', '_dystonia_gene_to_protein_edges.csv', '_dystonia_disease_caused_by_gene_edges.csv', '_dystonia_diseases_is_a_disease_edges.csv', '_dystonia_inheritance_edges.csv', '_dystonia_protein_GO_edges.csv']
+
+# Get the full path for each data file
+node_files = [data_dir.joinpath(node_file) for node_file in node_files_raw]
+edge_files = [data_dir.joinpath(edge_file) for edge_file in edge_files_raw]
 
 ########################################################
 # Procedures go here                                   #
 ########################################################
+
 def add_data_properties(g):
    # Define the namespaces
     ex = Namespace("http://example.org/")

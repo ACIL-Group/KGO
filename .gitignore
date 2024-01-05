@@ -3,9 +3,10 @@
 # -----------------------------------------------------------------------------
 
 # Generated files
-src/_dystonia_graph.graphml
-src/_dystonia.owl
-src/_low_resolution_dystonia_graph.png
+/_dystonia_graph.graphml
+/_dystonia.owl
+/_low_resolution_dystonia_graph.png
+
 
 # -----------------------------------------------------------------------------
 # PYTHON IGNORES

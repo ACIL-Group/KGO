@@ -10,16 +10,16 @@ Usage:
 Author: Daniel B. Hier MD
 """
 
-
-
 ############################
 # Import needed libraries  #
 ############################
+
 import pandas as pd
 import networkx as nx
 import os
 from rdflib import Graph, Namespace, RDF, RDFS, OWL, XSD, Literal
 import matplotlib.pyplot as plt
+
 # Change the working directory to where your data is located
 os.chdir('/Users/danielhier/desktop/networkx')
 
@@ -41,67 +41,64 @@ def add_data_properties(g):
     gene_MIM_uri = ex['gene_MIM']
     disease_MIM_uri = ex['disease_MIM']
     chromosome_location_uri = ex['chromosome_location']
-    
+
     # Declare data properties
     g.add((gene_MIM_uri, RDF.type, OWL.DatatypeProperty))
     g.add((gene_MIM_uri, RDFS.domain, ex.gene))
     g.add((gene_MIM_uri, RDFS.range, XSD.string))
-    
+
     g.add((disease_MIM_uri, RDF.type, OWL.DatatypeProperty))
     g.add((disease_MIM_uri, RDFS.domain, ex.gene))
     g.add((disease_MIM_uri, RDFS.range, XSD.string))
-    
+
     g.add((chromosome_location_uri, RDF.type, OWL.DatatypeProperty))
     g.add((chromosome_location_uri, RDFS.domain, ex.gene))
     g.add((chromosome_location_uri, RDFS.range, XSD.string))
-    
+
     # Define individual URIs for data properties
     protein_MW_uri = ex['protein_MW']
     protein_length_uri = ex['protein_length']
     protein_name_uri = ex['protein_name']
-    
+
     # Declare data properties
     g.add((protein_MW_uri, RDF.type, OWL.DatatypeProperty))
     g.add((protein_MW_uri, RDFS.domain, ex.protein))
     g.add((protein_MW_uri, RDFS.range, XSD.string))
-        
+
     g.add((protein_length_uri, RDF.type, OWL.DatatypeProperty))
     g.add((protein_length_uri, RDFS.domain, ex.protein))
     g.add((protein_length_uri, RDFS.range, XSD.string))
-    
+
     g.add((protein_name_uri, RDF.type, OWL.DatatypeProperty))
     g.add((protein_name_uri, RDFS.domain, ex.protein))
     g.add((protein_name_uri, RDFS.range, XSD.string))
-    
+
     # Define individual URI for the 'hpo_id' data property
     hpo_id_uri = ex['hpo_id']
-    
+
     # Declare the 'hpo_id' data property
     g.add((hpo_id_uri, RDF.type, OWL.DatatypeProperty))
     g.add((hpo_id_uri, RDFS.domain, ex.phenotype))
     g.add((hpo_id_uri, RDFS.range, XSD.string))  # Assuming 'hpo_id' is a string
-    
-    
-    
-    # Define individual URIs for data properties                                        
+
+    # Define individual URIs for data properties
     disease_name_uri = ex['disease_name']
     gene_name_uri = ex['gene_name']
     gene_MIM_uri = ex['gene_MIM']
-    
+
     # Declare data properties
     g.add((disease_name_uri, RDF.type, OWL.DatatypeProperty))
     g.add((disease_name_uri, RDFS.domain, ex.disease))
     g.add((disease_name_uri, RDFS.range, XSD.string))
-    
+
     g.add((gene_name_uri, RDF.type, OWL.DatatypeProperty))
     g.add((gene_name_uri, RDFS.domain, ex.disease))
     g.add((gene_name_uri, RDFS.range, XSD.string))
-    
-    g.add((gene_MIM_uri, RDF.type, OWL.DatatypeProperty))                                                                                                                                           
+
+    g.add((gene_MIM_uri, RDF.type, OWL.DatatypeProperty))
     g.add((gene_MIM_uri, RDFS.domain, ex.disease))
     g.add((gene_MIM_uri, RDFS.range, XSD.string ))
-    return (g) 
-
+    return (g)
 
 
 def add_object_properties (g):
@@ -111,48 +108,48 @@ def add_object_properties (g):
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['gene']))
     g.add((object_property_uri, RDFS.range, ex['disease']))
-    
-    
+
+
     obj_property_uri = ex['located_in']
     # Declare the object property
     g.add((obj_property_uri, RDF.type, OWL.ObjectProperty))
     # Declare the domain and range of the object property
     g.add((obj_property_uri, RDFS.domain, ex['protein']))
     g.add((obj_property_uri, RDFS.range, ex['CC']))
-    
+
     obj_property_uri = ex['has_phenotype']
     # Declare the object property
     # Declare the domain and range of the object property
     g.add((obj_property_uri, RDFS.domain, ex['disease']))
     g.add((obj_property_uri, RDFS.range, ex['phenotype']))
-    
-    
+
+
     obj_property_uri = ex['has_inheritance']
     g.add((obj_property_uri, RDF.type, OWL.ObjectProperty))
     g.add((obj_property_uri, RDFS.domain, ex['disease']))
     g.add((obj_property_uri, RDFS.range, ex['inheritance']))
-    
+
     object_property_uri = ex['enables']
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['protein']))
     g.add((object_property_uri, RDFS.range, ex['MF']))
-    
+
     object_property_uri = ex['codes_for']
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['gene']))
     g.add((object_property_uri, RDFS.range, ex['protein']))
-    
+
     object_property_uri = ex['is_active_in']
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['protein']))
     g.add((object_property_uri, RDFS.range, ex['MF']))
-    
-    
+
+
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['protein']))
     g.add((object_property_uri, RDFS.range, ex['BP']))
-    
-    
+
+
     object_property_uri = ex['is_involved_in']
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['protein']))
@@ -182,7 +179,7 @@ def create_networkx_graph(node_files, edge_files, G):
                 node_attributes[col_name] = attribute_value
             G.add_node(node_name, **node_attributes)
 
-    # Add edges from edge files to the NetworkX graph G 
+    # Add edges from edge files to the NetworkX graph G
     for edge_file in edge_files:
         df_edges = pd.read_csv(edge_file)
         for index, row in df_edges.iterrows():
@@ -193,8 +190,8 @@ def create_networkx_graph(node_files, edge_files, G):
                 G.add_edge(source, target, edge_name=edge_name)
             else:
                 print(edge_file, source, target)
-            
-    return G            
+
+    return G
 
 
 def plot_graph(G):
@@ -241,7 +238,7 @@ def add_data_properties_to_nodes(g):
     for node_data in G.nodes(data=True):
         node_name = node_data[0]
         node_attributes = node_data[1]
-    
+
         if 'supranode' in node_attributes and node_attributes['supranode'] == 'disease':
             disease_name = node_attributes.get('disease_name', None)
             node_name =str(node_name)
@@ -250,7 +247,7 @@ def add_data_properties_to_nodes(g):
                 individual_uri = ex[node_name]
                 data_property_uri = ex['disease_name']
                 g.add((individual_uri, data_property_uri, Literal(disease_name, datatype=XSD.string)))
-    
+
     for node_data in G.nodes(data=True):
         node_name = node_data[0]
         node_attributes = node_data[1]
@@ -270,8 +267,8 @@ def add_data_properties_to_nodes(g):
             g.add((individual_uri, data_property_uri, Literal(protein_weight, datatype=XSD.string)))
             data_property_uri = ex['protein_name']
             g.add((individual_uri, data_property_uri, Literal(protein_name, datatype=XSD.string)))
-    
-    
+
+
     # Iterate through the 'phenotype' nodes and add 'hpo_id' data property
     for node_data in G.nodes(data=True):
         node_name = node_data[0]
@@ -296,14 +293,14 @@ def add_data_properties_to_nodes(g):
             g.add((individual_uri, data_property_uri, Literal(gene_MIM, datatype=XSD.string)))
             data_property_uri = ex['chromosome_location']
             g.add((individual_uri, data_property_uri, Literal(chromosome_location, datatype=XSD.string)))
-    return g      
+    return g
 
 
 def add_edges_to_RDF_graph(g):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
-    #Add object relationships         
+    #Add object relationships
     start_nodes_set=set()
     end_nodes_set=set()
     all_edges_set = set()
@@ -335,6 +332,8 @@ def add_edges_to_RDF_graph(g):
         # Add the edge as a triple in the RDF graph
         g.add((source_uri, obj_property_uri, target_uri))
     return(g)
+
+
 def add_nodes_to_RDF_graph(g):
     # Define the namespaces
     ex = Namespace("http://example.org/")
@@ -354,51 +353,35 @@ def add_nodes_to_RDF_graph(g):
                 ###print(individual_name)
                 individual_name_uri = ex[individual_name]
                 supranode_uri =ex[supranode]
-                g.add((individual_name_uri, RDF.type,supranode_uri )) 
-    return(g)         
+                g.add((individual_name_uri, RDF.type,supranode_uri ))
+    return(g)
+
+
 ########################################################
 # Main Program Starts here                             #
 ########################################################
-# G is networkX graph
-# g is an RDF graph
-# Declare a NetworkX graph
-G = nx.Graph()
-# Call the procedure to add nodes and edges to the graph G
-G = create_networkx_graph(node_files, edge_files, G)
-plot_graph(G)
-# Declare an RDF graph
-g = Graph()
-g = add_object_properties(g)
-g = add_data_properties(g)
-g = add_data_properties_to_nodes(g)
-g = add_nodes_to_RDF_graph(g)
-g = add_edges_to_RDF_graph(g)    
-# Serialize the updated RDF graph to an OWL file
-file_out = '_dystonia.owl'
-g.serialize(file_out, format="turtle")
-print('Graph and Ontology complete.')
-print('_dystonia_graph.graphml has been written to file as a GraphML file')
-print('_low_resolution_dystonia_graph.png has been written to file as a PNG file')
-print('_dystonia.owl has been written to file as an ontology')
+if __name__ == "__main__":
+    # G is networkX graph
+    # g is an RDF graph
+    # Declare a NetworkX graph
+    G = nx.Graph()
 
+    # Call the procedure to add nodes and edges to the graph G
+    G = create_networkx_graph(node_files, edge_files, G)
+    plot_graph(G)
 
+    # Declare an RDF graph
+    g = Graph()
+    g = add_object_properties(g)
+    g = add_data_properties(g)
+    g = add_data_properties_to_nodes(g)
+    g = add_nodes_to_RDF_graph(g)
+    g = add_edges_to_RDF_graph(g)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    # Serialize the updated RDF graph to an OWL file
+    file_out = '_dystonia.owl'
+    g.serialize(file_out, format="turtle")
+    print('Graph and Ontology complete.')
+    print('_dystonia_graph.graphml has been written to file as a GraphML file')
+    print('_low_resolution_dystonia_graph.png has been written to file as a PNG file')
+    print('_dystonia.owl has been written to file as an ontology')

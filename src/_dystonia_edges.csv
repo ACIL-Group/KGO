@@ -1,0 +1,8 @@
+﻿source,edge_name,target
+gene,codes_for,protein
+protein,has,CC
+gene,causes,disease
+disease,has,phenotype
+protein,has,MF
+protein,has,BP
+disease,has,inheritance

@@ -1,0 +1,2072 @@
+@prefix ex: <http://example.org/> .
+@prefix objprop: <http://example.org/object_properties#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:DYT13 a ex:gene ;
+    ex:chromosome_location "1p36_32_p36_13"^^xsd:string ;
+    ex:gene_MIM "607671"^^xsd:string ;
+    objprop:caused_by ex:607671 .
+
+ex:DYT15 a ex:gene ;
+    ex:chromosome_location "18p11"^^xsd:string ;
+    ex:gene_MIM "607488"^^xsd:string ;
+    objprop:caused_by ex:607488 .
+
+ex:DYT17 a ex:gene ;
+    ex:chromosome_location "20p11_2_q13_12"^^xsd:string ;
+    ex:gene_MIM "612406"^^xsd:string ;
+    objprop:caused_by ex:612406 .
+
+ex:DYT21 a ex:gene ;
+    ex:chromosome_location "2q14_3_q21_3"^^xsd:string ;
+    ex:gene_MIM "614588"^^xsd:string ;
+    objprop:caused_by ex:614588 .
+
+ex:DYT23 a ex:gene ;
+    ex:chromosome_location "9q34"^^xsd:string ;
+    ex:gene_MIM "614860"^^xsd:string ;
+    objprop:caused_by ex:614860 .
+
+ex:DYT7 a ex:gene ;
+    ex:chromosome_location "18p"^^xsd:string ;
+    ex:gene_MIM "602124"^^xsd:string ;
+    objprop:caused_by ex:602124 .
+
+ex:EKD2 a ex:gene ;
+    ex:chromosome_location "16q13_q22_1"^^xsd:string ;
+    ex:gene_MIM "611031"^^xsd:string ;
+    objprop:caused_by ex:611031 .
+
+ex:O14656 a ex:protein ;
+    objprop:codes_for ex:TOR1A ;
+    objprop:enables ex:ATP_binding,
+        ex:ATP_hydrolysis_activity,
+        ex:hydrolase_activity,
+        ex:nucleotide_binding ;
+    objprop:involved_in ex:chaperone_cofactor_dependent_protein_refolding ;
+    objprop:located_in ex:cell_projection,
+        ex:cytoplasm,
+        ex:cytoplasmic_vesicle_membrane,
+        ex:endomembrane_system,
+        ex:endoplasmic_reticulum,
+        ex:endoplasmic_reticulum_lumen,
+        ex:growth_cone,
+        ex:intracellular_membrane_bounded_organelle,
+        ex:membrane,
+        ex:nucleus ;
+    ex:protein_length "332"^^xsd:string ;
+    ex:protein_name "Torsin_family_1_member_A"^^xsd:string ;
+    ex:protein_weight "37809"^^xsd:string .
+
+ex:O43556 a ex:protein ;
+    objprop:codes_for ex:SGCE ;
+    objprop:located_in ex:Golgi_apparatus,
+        ex:cell_projection,
+        ex:cytoplasm,
+        ex:cytoskeleton,
+        ex:dendrite,
+        ex:membrane,
+        ex:plasma_membrane,
+        ex:sarcolemma ;
+    objprop:part_of ex:sarcoglycan_complex ;
+    ex:protein_length "437"^^xsd:string ;
+    ex:protein_name "Sarcoglycan_epsilon"^^xsd:string ;
+    ex:protein_weight "52535"^^xsd:string .
+
+ex:O75569 a ex:protein ;
+    objprop:codes_for ex:PRKRA ;
+    objprop:enables ex:RNA_binding,
+        ex:kinase_activity ;
+    objprop:involved_in ex:cellular_response_to_oxidative_stress,
+        ex:ear_development,
+        ex:middle_ear_morphogenesis,
+        ex:outer_ear_morphogenesis,
+        ex:phosphorylation,
+        ex:positive_regulation_of_intrinsic_apoptotic_signaling_pathway,
+        ex:skeletal_system_morphogenesis ;
+    objprop:located_in ex:perinuclear_region_of_cytoplasm ;
+    ex:protein_length "313"^^xsd:string ;
+    ex:protein_name "Protein_activator_of_interferon_induced_protein_kinase_EIF2AK2"^^xsd:string ;
+    ex:protein_weight "34404"^^xsd:string .
+
+ex:O95153 a ex:protein ;
+    objprop:codes_for ex:TSPOAP1 ;
+    objprop:enables ex:benzodiazepine_receptor_binding,
+        ex:voltage_gated_calcium_channel_activity_involved_in_regulation_of_presynaptic_cytosolic_calcium_levels ;
+    objprop:involved_in ex:regulation_of_presynaptic_cytosolic_calcium_ion_concentration ;
+    objprop:located_in ex:calyx_of_Held,
+        ex:cytoplasm,
+        ex:glutamatergic_synapse,
+        ex:mitochondrion ;
+    ex:protein_length "1857"^^xsd:string ;
+    ex:protein_name "TSPO_Associated_Protein_1"^^xsd:string ;
+    ex:protein_weight "200051"^^xsd:string .
+
+ex:P04350 a ex:protein ;
+    objprop:codes_for ex:TUBB4A ;
+    objprop:enables ex:GTP_binding,
+        ex:GTPase_activity,
+        ex:nucleotide_binding,
+        ex:structural_constituent_of_cytoskeleton ;
+    objprop:involved_in ex:cytoskeleton_organization,
+        ex:microtubule_based_process ;
+    objprop:located_in ex:cytoplasm,
+        ex:cytoskeleton,
+        ex:intercellular_bridge,
+        ex:microtubule,
+        ex:mitotic_spindle ;
+    ex:protein_length "444"^^xsd:string ;
+    ex:protein_name "Tubulin_beta_4A_class_IVa"^^xsd:string ;
+    ex:protein_weight "49586"^^xsd:string .
+
+ex:P11166 a ex:protein ;
+    objprop:codes_for ex:SLC2A1 ;
+    objprop:enables ex:glucose_transmembrane_transporter_activity,
+        ex:transmembrane_transporter_activity ;
+    objprop:involved_in ex:carbohydrate_transport,
+        ex:glucose_transmembrane_transport,
+        ex:transmembrane_transport ;
+    objprop:located_in ex:membrane,
+        ex:photoreceptor_inner_segment,
+        ex:plasma_membrane ;
+    ex:protein_length "492"^^xsd:string ;
+    ex:protein_name "Solute_carrier_family_2_member_1"^^xsd:string ;
+    ex:protein_weight "54084"^^xsd:string .
+
+ex:P12111 a ex:protein ;
+    objprop:codes_for ex:COL6A3 ;
+    objprop:enables ex:serine_type_endopeptidase_inhibitor_activity ;
+    objprop:involved_in ex:cell_adhesion ;
+    objprop:located_in ex:extracellular_region ;
+    objprop:part_of ex:collagen_trimer ;
+    ex:protein_length "3177"^^xsd:string ;
+    ex:protein_name "Collagen_type_VI_alpha_3_chain"^^xsd:string ;
+    ex:protein_weight "343669"^^xsd:string .
+
+ex:P13637 a ex:protein ;
+    objprop:codes_for ex:ATP1A3 ;
+    objprop:enables ex:ATP_binding,
+        ex:ATP_hydrolysis_activity,
+        ex:P_type_potassium_transmembrane_transporter_activity,
+        ex:P_type_sodium_potassium_exchanging_transporter_activity,
+        ex:metal_ion_binding,
+        ex:nucleotide_binding ;
+    objprop:involved_in ex:establishment_or_maintenance_of_transmembrane_electrochemical_gradient,
+        ex:intracellular_potassium_ion_homeostasis,
+        ex:intracellular_sodium_ion_homeostasis,
+        ex:monoatomic_ion_transport,
+        ex:potassium_ion_import_across_plasma_membrane,
+        ex:potassium_ion_transport,
+        ex:proton_transmembrane_transport,
+        ex:sodium_ion_export_across_plasma_membrane,
+        ex:sodium_ion_transport ;
+    objprop:is_active_in ex:plasma_membrane ;
+    objprop:located_in ex:membrane ;
+    ex:protein_length "1013"^^xsd:string ;
+    ex:protein_name "ATPase_Na+_K+_transporting_subunit_alpha_3"^^xsd:string ;
+    ex:protein_weight "111748"^^xsd:string .
+
+ex:P19525 a ex:protein ;
+    objprop:codes_for ex:EIF2AK2 ;
+    objprop:enables ex:ATP_binding,
+        ex:RNA_binding,
+        ex:double_stranded_RNA_binding,
+        ex:kinase_activity,
+        ex:nucleotide_binding,
+        ex:protein_kinase_activity,
+        ex:transferase_activity,
+        ex:translation_initiation_factor_activity ;
+    objprop:involved_in ex:phosphorylation,
+        ex:translational_initiation ;
+    ex:protein_length "551"^^xsd:string ;
+    ex:protein_name "Eukaryotic_translation_initiation_factor_2_alpha_kinase_2"^^xsd:string ;
+    ex:protein_weight "62094"^^xsd:string .
+
+ex:P21675 a ex:protein ;
+    objprop:codes_for ex:TAF1 ;
+    objprop:enables ex:DNA_binding,
+        ex:RNA_polymerase_II_general_transcription_initiation_factor_binding,
+        ex:TBP_class_protein_binding,
+        ex:histone_acetyltransferase_activity,
+        ex:protein_serine_threonine_kinase_activity ;
+    objprop:involved_in ex:DNA_templated_transcription_initiation,
+        ex:cell_cycle,
+        ex:chromatin_remodeling,
+        ex:transcription_by_RNA_polymerase_II ;
+    objprop:located_in ex:nucleus ;
+    objprop:part_of ex:transcription_factor_TFIID_complex ;
+    ex:protein_length "1872"^^xsd:string ;
+    ex:protein_name "TATA_box_binding_protein_associated_factor_1"^^xsd:string ;
+    ex:protein_weight "214714"^^xsd:string .
+
+ex:P30793 a ex:protein ;
+    objprop:codes_for ex:GCH1 ;
+    objprop:enables ex:GTP_cyclohydrolase_I_activity,
+        ex:GTP_cyclohydrolase_activity,
+        ex:catalytic_activity,
+        ex:hydrolase_activity ;
+    objprop:involved_in ex:metabolic_process,
+        ex:obsolete_7_8_dihydroneopterin_3__triphosphate_biosynthetic_process,
+        ex:tetrahydrobiopterin_biosynthetic_process,
+        ex:tetrahydrofolate_biosynthetic_process ;
+    objprop:located_in ex:cytoplasm,
+        ex:nucleus ;
+    ex:protein_length "250"^^xsd:string ;
+    ex:protein_name "GTP_cyclohydrolase_1"^^xsd:string ;
+    ex:protein_weight "27903"^^xsd:string .
+
+ex:P38405 a ex:protein ;
+    objprop:codes_for ex:GNAL ;
+    objprop:enables ex:GTP_binding,
+        ex:GTPase_activity,
+        ex:G_protein_beta_gamma_subunit_complex_binding,
+        ex:guanyl_nucleotide_binding,
+        ex:metal_ion_binding,
+        ex:nucleotide_binding ;
+    objprop:involved_in ex:G_protein_coupled_receptor_signaling_pathway,
+        ex:cellular_response_to_stimulus,
+        ex:signal_transduction ;
+    ex:protein_length "381"^^xsd:string ;
+    ex:protein_name "G_protein_subunit_alpha_L"^^xsd:string ;
+    ex:protein_weight "52455"^^xsd:string .
+
+ex:P84074 a ex:protein ;
+    objprop:codes_for ex:HPCA ;
+    objprop:enables ex:actin_binding,
+        ex:calcium_ion_binding,
+        ex:identical_protein_binding,
+        ex:metal_ion_binding ;
+    objprop:involved_in ex:cellular_response_to_calcium_ion,
+        ex:inner_ear_development ;
+    objprop:located_in ex:cytoplasm,
+        ex:cytosol,
+        ex:membrane ;
+    ex:protein_length "193"^^xsd:string ;
+    ex:protein_name "Hippocalcin"^^xsd:string ;
+    ex:protein_weight "22427"^^xsd:string .
+
+ex:PNKD2 a ex:gene ;
+    ex:chromosome_location "2q31"^^xsd:string ;
+    ex:gene_MIM "611147"^^xsd:string ;
+    objprop:caused_by ex:611147 .
+
+ex:Q6PI26 a ex:protein ;
+    objprop:codes_for ex:SHQ1 ;
+    objprop:involved_in ex:box_H_ACA_snoRNP_assembly,
+        ex:negative_regulation_of_rRNA_processing,
+        ex:positive_regulation_of_apoptotic_process,
+        ex:protein_RNA_complex_assembly ;
+    objprop:located_in ex:cytoplasm,
+        ex:cytosol,
+        ex:nucleoplasm ;
+    ex:protein_length "577"^^xsd:string ;
+    ex:protein_name "SHQ1_H_ACA_ribonucleoprotein_assembly_factor"^^xsd:string ;
+    ex:protein_weight "65125"^^xsd:string .
+
+ex:Q7Z3B4 a ex:protein ;
+    objprop:codes_for ex:NUP54 ;
+    objprop:located_in ex:nuclear_envelope,
+        ex:nucleus ;
+    objprop:part_of ex:nuclear_pore ;
+    ex:protein_length "507"^^xsd:string ;
+    ex:protein_name "Nucleoporin p54"^^xsd:string ;
+    ex:protein_weight "55435"^^xsd:string .
+
+ex:Q7Z6L0 a ex:protein ;
+    objprop:codes_for ex:PRRT2 ;
+    objprop:enables ex:syntaxin_1_binding ;
+    objprop:involved_in ex:negative_regulation_of_SNARE_complex_assembly,
+        ex:negative_regulation_of_short_term_synaptic_potentiation,
+        ex:neuromuscular_process_controlling_posture,
+        ex:regulation_of_calcium_dependent_activation_of_synaptic_vesicle_fusion,
+        ex:synaptic_vesicle_fusion_to_presynaptic_active_zone_membrane ;
+    objprop:is_active_in ex:membrane ;
+    objprop:located_in ex:axon_terminus,
+        ex:glutamatergic_synapse,
+        ex:plasma_membrane,
+        ex:presynapse,
+        ex:presynaptic_membrane,
+        ex:synaptic_vesicle,
+        ex:vesicle ;
+    ex:protein_length "340"^^xsd:string ;
+    ex:protein_name "Proline_rich_transmembrane_protein_2"^^xsd:string ;
+    ex:protein_weight "34945"^^xsd:string .
+
+ex:Q8N490 a ex:protein ;
+    objprop:codes_for ex:PNKD ;
+    objprop:enables ex:hydrolase_activity,
+        ex:hydroxyacylglutathione_hydrolase_activity,
+        ex:metal_ion_binding ;
+    objprop:involved_in ex:methylglyoxal_catabolic_process_to_D_lactate_via_S_lactoyl_glutathione,
+        ex:negative_regulation_of_neurotransmitter_secretion,
+        ex:neuromuscular_process_controlling_posture,
+        ex:regulation_of_dopamine_metabolic_process,
+        ex:regulation_of_synaptic_transmission__dopaminergic ;
+    objprop:located_in ex:membrane,
+        ex:mitochondrion,
+        ex:presynaptic_cytosol ;
+    ex:protein_length "385"^^xsd:string ;
+    ex:protein_name "PNKD_metallo_beta_lactamase_domain_containing"^^xsd:string ;
+    ex:protein_weight "42876"^^xsd:string .
+
+ex:Q8N4L1 a ex:protein ;
+    objprop:codes_for ex:TMEM151A ;
+    objprop:located_in ex:endoplasmic_reticulum,
+        ex:membrane ;
+    ex:protein_length "468"^^xsd:string ;
+    ex:protein_name "Transmembrane_protein_151A"^^xsd:string ;
+    ex:protein_weight "51278"^^xsd:string .
+
+ex:Q8N5Z5 a ex:protein ;
+    objprop:codes_for ex:KCTD17 ;
+    objprop:enables ex:cullin_family_protein_binding,
+        ex:identical_protein_binding,
+        ex:ubiquitin_ligase_substrate_adaptor_activity ;
+    objprop:involved_in ex:endoplasmic_reticulum_calcium_ion_homeostasis,
+        ex:positive_regulation_of_cilium_assembly,
+        ex:proteasome_mediated_ubiquitin_dependent_protein_catabolic_process,
+        ex:protein_homooligomerization ;
+    objprop:located_in ex:cytoplasm,
+        ex:endoplasmic_reticulum ;
+    objprop:part_of ex:Cul3_RING_ubiquitin_ligase_complex ;
+    ex:protein_length "321"^^xsd:string ;
+    ex:protein_name "Potassium_channel_tetramerization_domain_containing_17"^^xsd:string ;
+    ex:protein_weight "33276"^^xsd:string .
+
+ex:Q8N6M6 a ex:protein ;
+    objprop:codes_for ex:AOPEP ;
+    objprop:enables ex:metalloaminopeptidase_activity,
+        ex:metallopeptidase_activity,
+        ex:zinc_ion_binding ;
+    objprop:located_in ex:nucleolus ;
+    ex:protein_length "819"^^xsd:string ;
+    ex:protein_name "Aminopeptidase_O_(putative)"^^xsd:string ;
+    ex:protein_weight "93572"^^xsd:string .
+
+ex:Q9BV79 a ex:protein ;
+    objprop:codes_for ex:MECR ;
+    objprop:enables ex:oxidoreductase_activity ;
+    objprop:involved_in ex:fatty_acid_biosynthetic_process,
+        ex:fatty_acid_metabolic_process,
+        ex:lipid_metabolic_process ;
+    objprop:located_in ex:mitochondrion ;
+    ex:protein_length "373"^^xsd:string ;
+    ex:protein_name "Mitochondrial_trans_2_enoyl_CoA_reductase"^^xsd:string ;
+    ex:protein_weight "40462"^^xsd:string .
+
+ex:Q9BYT9 a ex:protein ;
+    objprop:codes_for ex:ANO3 ;
+    objprop:enables ex:chloride_channel_activity,
+        ex:phospholipid_scramblase_activity,
+        ex:protein_dimerization_activity ;
+    objprop:involved_in ex:calcium_activated_galactosylceramide_scrambling,
+        ex:calcium_activated_phosphatidylcholine_scrambling,
+        ex:chloride_transmembrane_transport,
+        ex:establishment_of_localization_in_cell ;
+    objprop:is_active_in ex:plasma_membrane ;
+    objprop:located_in ex:membrane ;
+    ex:protein_length "986"^^xsd:string ;
+    ex:protein_name "Anoctamin_3"^^xsd:string ;
+    ex:protein_weight "114657"^^xsd:string .
+
+ex:Q9H269 a ex:protein ;
+    objprop:codes_for ex:VPS16 ;
+    objprop:involved_in ex:intracellular_protein_transport,
+        ex:protein_transport,
+        ex:vacuole_organization ;
+    objprop:located_in ex:cytoplasm,
+        ex:endomembrane_system,
+        ex:endosome,
+        ex:intracellular_membrane_bounded_organelle,
+        ex:late_endosome_membrane,
+        ex:lysosomal_membrane,
+        ex:lysosome,
+        ex:membrane ;
+    objprop:part_of ex:CORVET_complex,
+        ex:HOPS_complex,
+        ex:protein_containing_complex ;
+    ex:protein_length "839"^^xsd:string ;
+    ex:protein_name "VPS16_core_subunit_of_CORVET_and_HOPS_complexes"^^xsd:string ;
+    ex:protein_weight "94693"^^xsd:string .
+
+ex:Q9H270 a ex:protein ;
+    objprop:codes_for ex:VPS11 ;
+    objprop:enables ex:metal_ion_binding ;
+    objprop:involved_in ex:autophagy,
+        ex:intracellular_protein_transport,
+        ex:intracellular_transport,
+        ex:protein_transport,
+        ex:vesicle_mediated_transport ;
+    objprop:located_in ex:autophagosome,
+        ex:clathrin_coated_vesicle,
+        ex:cytoplasmic_vesicle,
+        ex:early_endosome,
+        ex:endosome,
+        ex:late_endosome_membrane,
+        ex:lysosomal_membrane,
+        ex:lysosome,
+        ex:membrane ;
+    objprop:part_of ex:CORVET_complex,
+        ex:HOPS_complex,
+        ex:vesicle_tethering_complex ;
+    ex:protein_length "941"^^xsd:string ;
+    ex:protein_name "VPS11_core_subunit_of_CORVET_and_HOPS_complexes"^^xsd:string ;
+    ex:protein_weight "107808"^^xsd:string .
+
+ex:Q9H2S1 a ex:protein ;
+    objprop:codes_for ex:KCNN2 ;
+    objprop:enables ex:calcium_activated_potassium_channel_activity,
+        ex:calmodulin_binding,
+        ex:small_conductance_calcium_activated_potassium_channel_activity ;
+    objprop:involved_in ex:monoatomic_ion_transmembrane_transport,
+        ex:monoatomic_ion_transport,
+        ex:potassium_ion_transmembrane_transport,
+        ex:potassium_ion_transport ;
+    objprop:located_in ex:membrane ;
+    ex:protein_length "579"^^xsd:string ;
+    ex:protein_name "Potassium_calcium_activated_channel_subfamily_N_member_2"^^xsd:string ;
+    ex:protein_weight "63759"^^xsd:string .
+
+ex:Q9NVV9 a ex:protein ;
+    objprop:codes_for ex:THAP1 ;
+    objprop:enables ex:DNA_binding,
+        ex:DNA_binding_transcription_factor_activity,
+        ex:sequence_specific_DNA_binding ;
+    objprop:involved_in ex:cell_cycle,
+        ex:endothelial_cell_proliferation,
+        ex:regulation_of_DNA_templated_transcription ;
+    objprop:located_in ex:nucleoplasm,
+        ex:nucleus ;
+    ex:protein_length "213"^^xsd:string ;
+    ex:protein_name "THAP_domain_containing_1"^^xsd:string ;
+    ex:protein_weight "24944"^^xsd:string .
+
+ex:Q9UMN6 a ex:protein ;
+    objprop:codes_for ex:KMT2B ;
+    objprop:enables ex:DNA_binding,
+        ex:histone_H3K4_methyltransferase_activity,
+        ex:histone_H3K4_trimethyltransferase_activity,
+        ex:metal_ion_binding,
+        ex:methyltransferase_activity,
+        ex:transferase_activity,
+        ex:unmethylated_CpG_binding,
+        ex:zinc_ion_binding ;
+    objprop:involved_in ex:chromatin_organization,
+        ex:chromatin_remodeling,
+        ex:methylation,
+        ex:regulation_of_DNA_templated_transcription ;
+    objprop:located_in ex:nucleus ;
+    objprop:part_of ex:MLL_1_2_complex,
+        ex:histone_methyltransferase_complex ;
+    ex:protein_length "2715"^^xsd:string ;
+    ex:protein_name "Lysine_methyltransferase_2B"^^xsd:string ;
+    ex:protein_weight "293515"^^xsd:string .
+
+ex:causes a rdf:Property ;
+    rdfs:domain ex:gene ;
+    rdfs:range ex:disease .
+
+ex:chromosome_location a owl:DatatypeProperty ;
+    rdfs:domain ex:gene ;
+    rdfs:range xsd:string .
+
+ex:codes_for a rdf:Property ;
+    rdfs:domain ex:gene ;
+    rdfs:range ex:protein .
+
+ex:disease_MIM a owl:DatatypeProperty ;
+    rdfs:domain ex:gene ;
+    rdfs:range xsd:string .
+
+ex:disease_name a owl:DatatypeProperty ;
+    rdfs:domain ex:disease ;
+    rdfs:range xsd:string .
+
+ex:enables a rdf:Property ;
+    rdfs:domain ex:protein ;
+    rdfs:range ex:MF .
+
+ex:gene_MIM a owl:DatatypeProperty ;
+    rdfs:domain ex:disease,
+        ex:gene ;
+    rdfs:range xsd:string .
+
+ex:gene_name a owl:DatatypeProperty ;
+    rdfs:domain ex:disease ;
+    rdfs:range xsd:string .
+
+ex:has_inheritance a owl:ObjectProperty ;
+    rdfs:domain ex:disease ;
+    rdfs:range ex:inheritance .
+
+ex:has_phenotype rdfs:domain ex:disease ;
+    rdfs:range ex:phenotype .
+
+ex:hpo_id a owl:DatatypeProperty ;
+    rdfs:domain ex:phenotype ;
+    rdfs:range xsd:string .
+
+ex:is_active_in a rdf:Property ;
+    rdfs:domain ex:protein ;
+    rdfs:range ex:BP,
+        ex:MF .
+
+ex:is_involved_in a rdf:Property ;
+    rdfs:domain ex:protein ;
+    rdfs:range ex:BP .
+
+ex:located_in a owl:ObjectProperty ;
+    rdfs:domain ex:protein ;
+    rdfs:range ex:CC .
+
+ex:protein_MW a owl:DatatypeProperty ;
+    rdfs:domain ex:protein ;
+    rdfs:range xsd:string .
+
+ex:protein_length a owl:DatatypeProperty ;
+    rdfs:domain ex:protein ;
+    rdfs:range xsd:string .
+
+ex:protein_name a owl:DatatypeProperty ;
+    rdfs:domain ex:protein ;
+    rdfs:range xsd:string .
+
+ex:ANO3 a ex:gene ;
+    ex:chromosome_location "11p14_3_p14_2"^^xsd:string ;
+    ex:gene_MIM "610110"^^xsd:string ;
+    objprop:caused_by ex:615034 .
+
+ex:AOPEP a ex:gene ;
+    ex:chromosome_location "9q22_32"^^xsd:string ;
+    ex:gene_MIM "619600"^^xsd:string ;
+    objprop:caused_by ex:619565 .
+
+ex:ATP1A3 a ex:gene ;
+    ex:chromosome_location "19q13_2"^^xsd:string ;
+    ex:gene_MIM "182350"^^xsd:string ;
+    objprop:caused_by ex:128235 .
+
+ex:Abnormality_of_eye_movement a ex:phenotype ;
+    ex:hpo_id "HP_0000496"^^xsd:string .
+
+ex:Abnormality_of_the_face a ex:phenotype ;
+    ex:hpo_id "HP_0000271"^^xsd:string .
+
+ex:Absent_Achilles_reflex a ex:phenotype ;
+    ex:hpo_id "HP_0003438"^^xsd:string .
+
+ex:Action_tremor a ex:phenotype ;
+    ex:hpo_id "HP_0002345"^^xsd:string .
+
+ex:Aggressive_behavior a ex:phenotype ;
+    ex:hpo_id "HP_0000718"^^xsd:string .
+
+ex:Agoraphobia a ex:phenotype ;
+    ex:hpo_id "HP_0000756"^^xsd:string .
+
+ex:Alcoholism a ex:phenotype ;
+    ex:hpo_id "HP_0030955"^^xsd:string .
+
+ex:Amblyopia a ex:phenotype ;
+    ex:hpo_id "HP_0000646"^^xsd:string .
+
+ex:Arrhythmia a ex:phenotype ;
+    ex:hpo_id "HP_0011675"^^xsd:string .
+
+ex:Astigmatism a ex:phenotype ;
+    ex:hpo_id "HP_0000483"^^xsd:string .
+
+ex:Athetosis a ex:phenotype ;
+    ex:hpo_id "HP_0002305"^^xsd:string .
+
+ex:Axial_hypotonia a ex:phenotype ;
+    ex:hpo_id "HP_0008936"^^xsd:string .
+
+ex:Bipolar_affective_disorder a ex:phenotype ;
+    ex:hpo_id "HP_0007302"^^xsd:string .
+
+ex:Brain_atrophy a ex:phenotype ;
+    ex:hpo_id "HP_0012444"^^xsd:string .
+
+ex:Bulbar_signs a ex:phenotype ;
+    ex:hpo_id "HP_0002483"^^xsd:string .
+
+ex:Bulbous_nose a ex:phenotype ;
+    ex:hpo_id "HP_0000414"^^xsd:string .
+
+ex:COL6A3 a ex:gene ;
+    ex:chromosome_location "2q37_3"^^xsd:string ;
+    ex:gene_MIM "120250"^^xsd:string ;
+    objprop:caused_by ex:616411 .
+
+ex:Cognitive_decline a ex:phenotype ;
+    ex:hpo_id "HP_0001268"^^xsd:string .
+
+ex:Cogwheel_rigidity a ex:phenotype ;
+    ex:hpo_id "HP_0002396"^^xsd:string .
+
+ex:Constipation a ex:phenotype ;
+    ex:hpo_id "HP_0002019"^^xsd:string .
+
+ex:Cul3_RING_ubiquitin_ligase_complex a ex:CC .
+
+ex:DNA_binding_transcription_factor_activity a ex:MF .
+
+ex:DNA_templated_transcription_initiation a ex:BP .
+
+ex:Delayed_gross_motor_development a ex:phenotype ;
+    ex:hpo_id "HP_0002194"^^xsd:string .
+
+ex:Difficulty_walking a ex:phenotype ;
+    ex:hpo_id "HP_0002355"^^xsd:string .
+
+ex:Diffuse_cerebral_atrophy a ex:phenotype ;
+    ex:hpo_id "HP_0002506"^^xsd:string .
+
+ex:Diplopia a ex:phenotype ;
+    ex:hpo_id "HP_0000651"^^xsd:string .
+
+ex:Drooling a ex:phenotype ;
+    ex:hpo_id "HP_0002307"^^xsd:string .
+
+ex:Duane_anomaly a ex:phenotype ;
+    ex:hpo_id "HP_0009921"^^xsd:string .
+
+ex:Dysdiadochokinesis a ex:phenotype ;
+    ex:hpo_id "HP_0002075"^^xsd:string .
+
+ex:EIF2AK2 a ex:gene ;
+    ex:chromosome_location "2p22_2"^^xsd:string ;
+    ex:gene_MIM "176871"^^xsd:string ;
+    objprop:caused_by ex:619687 .
+
+ex:Emotional_lability a ex:phenotype ;
+    ex:hpo_id "HP_0000712"^^xsd:string .
+
+ex:Episodic_ataxia a ex:phenotype ;
+    ex:hpo_id "HP_0002131"^^xsd:string .
+
+ex:Esophoria a ex:phenotype ;
+    ex:hpo_id "HP_0025312"^^xsd:string .
+
+ex:Facial_grimacing a ex:phenotype ;
+    ex:hpo_id "HP_0000273"^^xsd:string .
+
+ex:Facial_palsy a ex:phenotype ;
+    ex:hpo_id "HP_0010628"^^xsd:string .
+
+ex:Failure_to_thrive a ex:phenotype ;
+    ex:hpo_id "HP_0001508"^^xsd:string .
+
+ex:Feeding_difficulties a ex:phenotype ;
+    ex:hpo_id "HP_0011968"^^xsd:string .
+
+ex:GCH1 a ex:gene ;
+    ex:chromosome_location "14q22_2"^^xsd:string ;
+    ex:gene_MIM "600225"^^xsd:string ;
+    objprop:caused_by ex:128230 .
+
+ex:GNAL a ex:gene ;
+    ex:chromosome_location "18p11_21"^^xsd:string ;
+    ex:gene_MIM "139312"^^xsd:string ;
+    objprop:caused_by ex:615073 .
+
+ex:GTP_cyclohydrolase_I_activity a ex:MF .
+
+ex:GTP_cyclohydrolase_activity a ex:MF .
+
+ex:G_protein_beta_gamma_subunit_complex_binding a ex:MF .
+
+ex:G_protein_coupled_receptor_signaling_pathway a ex:BP .
+
+ex:Gaze_evoked_horizontal_nystagmus a ex:phenotype ;
+    ex:hpo_id "HP_0007979"^^xsd:string .
+
+ex:Generalized_hypotonia a ex:phenotype ;
+    ex:hpo_id "HP_0001290"^^xsd:string .
+
+ex:Golgi_apparatus a ex:CC .
+
+ex:HPCA a ex:gene ;
+    ex:chromosome_location "1p35_1"^^xsd:string ;
+    ex:gene_MIM "142622"^^xsd:string ;
+    objprop:caused_by ex:224500 .
+
+ex:Headache a ex:phenotype ;
+    ex:hpo_id "HP_0002315"^^xsd:string .
+
+ex:Hemidystonia a ex:phenotype ;
+    ex:hpo_id "HP_0032005"^^xsd:string .
+
+ex:Hemolytic_anemia a ex:phenotype ;
+    ex:hpo_id "HP_0001878"^^xsd:string .
+
+ex:Hyperlordosis a ex:phenotype ;
+    ex:hpo_id "HP_0003307"^^xsd:string .
+
+ex:Hypermetric_saccades a ex:phenotype ;
+    ex:hpo_id "HP_0007338"^^xsd:string .
+
+ex:Hypertonia a ex:phenotype ;
+    ex:hpo_id "HP_0001276"^^xsd:string .
+
+ex:Hypomimic_face a ex:phenotype ;
+    ex:hpo_id "HP_0000338"^^xsd:string .
+
+ex:Hypothalamic_hamartoma a ex:phenotype ;
+    ex:hpo_id "HP_0002444"^^xsd:string .
+
+ex:Impaired_distal_vibration_sensation a ex:phenotype ;
+    ex:hpo_id "HP_0006886"^^xsd:string .
+
+ex:Impaired_smooth_pursuit a ex:phenotype ;
+    ex:hpo_id "HP_0007772"^^xsd:string .
+
+ex:Impaired_tandem_gait a ex:phenotype ;
+    ex:hpo_id "HP_0031629"^^xsd:string .
+
+ex:Impulsivity a ex:phenotype ;
+    ex:hpo_id "HP_0100710"^^xsd:string .
+
+ex:In_toeing_of_feet_bilateral a ex:phenotype ;
+    ex:hpo_id "HP_0001840"^^xsd:string .
+
+ex:Inability_to_walk a ex:phenotype ;
+    ex:hpo_id "HP_0002540"^^xsd:string .
+
+ex:Incoordination a ex:phenotype ;
+    ex:hpo_id "HP_0002311"^^xsd:string .
+
+ex:Jaw_hyperreflexia a ex:phenotype ;
+    ex:hpo_id "HP_0033683"^^xsd:string .
+
+ex:KCNN2 a ex:gene ;
+    ex:chromosome_location "5q22_3"^^xsd:string ;
+    ex:gene_MIM "605879"^^xsd:string ;
+    objprop:caused_by ex:619724 .
+
+ex:KCTD17 a ex:gene ;
+    ex:chromosome_location "22q12_3"^^xsd:string ;
+    ex:gene_MIM "616386"^^xsd:string ;
+    objprop:caused_by ex:616398 .
+
+ex:KMT2B a ex:gene ;
+    ex:chromosome_location "19q13_12"^^xsd:string ;
+    ex:gene_MIM "606834"^^xsd:string ;
+    objprop:caused_by ex:617284 .
+
+ex:Kyphosis a ex:phenotype ;
+    ex:hpo_id "HP_0002808"^^xsd:string .
+
+ex:Limb_joint_contracture a ex:phenotype ;
+    ex:hpo_id "HP_0003121"^^xsd:string .
+
+ex:Limb_pain a ex:phenotype ;
+    ex:hpo_id "HP_0009763"^^xsd:string .
+
+ex:Limb_tremor a ex:phenotype ;
+    ex:hpo_id "HP_0200085"^^xsd:string .
+
+ex:Lower_limb_hyperreflexia a ex:phenotype ;
+    ex:hpo_id "HP_0002395"^^xsd:string .
+
+ex:Lower_limb_pain a ex:phenotype ;
+    ex:hpo_id "HP_0012514"^^xsd:string .
+
+ex:MECR a ex:gene ;
+    ex:chromosome_location "1p35_3"^^xsd:string ;
+    ex:gene_MIM "608205"^^xsd:string ;
+    objprop:caused_by ex:617282 .
+
+ex:MLL_1_2_complex a ex:CC .
+
+ex:Microcephaly a ex:phenotype ;
+    ex:hpo_id "HP_0000252"^^xsd:string .
+
+ex:Multiple_joint_contractures a ex:phenotype ;
+    ex:hpo_id "HP_0002828"^^xsd:string .
+
+ex:Muscle_stiffness a ex:phenotype ;
+    ex:hpo_id "HP_0003552"^^xsd:string .
+
+ex:Mutism a ex:phenotype ;
+    ex:hpo_id "HP_0002300"^^xsd:string .
+
+ex:Myokymia a ex:phenotype ;
+    ex:hpo_id "HP_0002411"^^xsd:string .
+
+ex:NUP54 a ex:gene ;
+    ex:chromosome_location "4q21_1"^^xsd:string ;
+    ex:gene_MIM "607607"^^xsd:string ;
+    objprop:caused_by ex:620427 .
+
+ex:Narrow_face a ex:phenotype ;
+    ex:hpo_id "HP_0000275"^^xsd:string .
+
+ex:Neonatal_seizure a ex:phenotype ;
+    ex:hpo_id "HP_0032807"^^xsd:string .
+
+ex:Night_sweats a ex:phenotype ;
+    ex:hpo_id "HP_0032807"^^xsd:string .
+
+ex:Nystagmus a ex:phenotype ;
+    ex:hpo_id "HP_0000639"^^xsd:string .
+
+ex:Optic_atrophy a ex:phenotype ;
+    ex:hpo_id "HP_0000648"^^xsd:string .
+
+ex:PNKD a ex:gene ;
+    ex:chromosome_location "2q35"^^xsd:string ;
+    ex:gene_MIM "609023"^^xsd:string ;
+    objprop:caused_by ex:118800 .
+
+ex:PRKRA a ex:gene ;
+    ex:chromosome_location "2q31_2"^^xsd:string ;
+    ex:gene_MIM "603424"^^xsd:string ;
+    objprop:caused_by ex:612067 .
+
+ex:PRRT2 a ex:gene ;
+    ex:chromosome_location "16p11_2"^^xsd:string ;
+    ex:gene_MIM "614386"^^xsd:string ;
+    objprop:caused_by ex:128200 .
+
+ex:P_type_potassium_transmembrane_transporter_activity a ex:MF .
+
+ex:P_type_sodium_potassium_exchanging_transporter_activity a ex:MF .
+
+ex:Panic_attack a ex:phenotype ;
+    ex:hpo_id "HP_0025269"^^xsd:string .
+
+ex:Paresthesia a ex:phenotype ;
+    ex:hpo_id "HP_0003401"^^xsd:string .
+
+ex:Pigmentary_retinopathy a ex:phenotype ;
+    ex:hpo_id "HP_0000580"^^xsd:string .
+
+ex:Postural_instability a ex:phenotype ;
+    ex:hpo_id "HP_0002172"^^xsd:string .
+
+ex:Ptosis a ex:phenotype ;
+    ex:hpo_id "HP_0000508"^^xsd:string .
+
+ex:RNA_polymerase_II_general_transcription_initiation_factor_binding a ex:MF .
+
+ex:Reduced_visual_acuity a ex:phenotype ;
+    ex:hpo_id "HP_0007663"^^xsd:string .
+
+ex:Resting_tremor a ex:phenotype ;
+    ex:hpo_id "HP_0002322"^^xsd:string .
+
+ex:Rotary_nystagmus a ex:phenotype ;
+    ex:hpo_id "HP_0001583"^^xsd:string .
+
+ex:SGCE a ex:gene ;
+    ex:chromosome_location "7q21_3"^^xsd:string ;
+    ex:gene_MIM "604149"^^xsd:string ;
+    objprop:caused_by ex:159900 .
+
+ex:SHQ1 a ex:gene ;
+    ex:chromosome_location "3p13"^^xsd:string ;
+    ex:gene_MIM "613663"^^xsd:string ;
+    objprop:caused_by ex:619921 .
+
+ex:SLC2A1 a ex:gene ;
+    ex:chromosome_location "1p34_2"^^xsd:string ;
+    ex:gene_MIM "138140"^^xsd:string ;
+    objprop:caused_by ex:601042,
+        ex:612126 .
+
+ex:Short_stature a ex:phenotype ;
+    ex:hpo_id "HP_0004322"^^xsd:string .
+
+ex:Skeletal_muscle_hypertrophy a ex:phenotype ;
+    ex:hpo_id "HP_0003712"^^xsd:string .
+
+ex:Slender_build a ex:phenotype ;
+    ex:hpo_id "HP_0001533"^^xsd:string .
+
+ex:Slow_saccadic_eye_movements a ex:phenotype ;
+    ex:hpo_id "HP_0000514"^^xsd:string .
+
+ex:Splenomegaly a ex:phenotype ;
+    ex:hpo_id "HP_0001744"^^xsd:string .
+
+ex:Strabismus a ex:phenotype ;
+    ex:hpo_id "HP_0000486"^^xsd:string .
+
+ex:Sunken_cheeks a ex:phenotype ;
+    ex:hpo_id "HP_0009938"^^xsd:string .
+
+ex:TAF1 a ex:gene ;
+    ex:chromosome_location "Xq13_1"^^xsd:string ;
+    ex:gene_MIM "313650"^^xsd:string ;
+    objprop:caused_by ex:314250 .
+
+ex:TBP_class_protein_binding a ex:MF .
+
+ex:THAP1 a ex:gene ;
+    ex:chromosome_location "8p11_21"^^xsd:string ;
+    ex:gene_MIM "609520"^^xsd:string ;
+    objprop:caused_by ex:602629 .
+
+ex:TMEM151A a ex:gene ;
+    ex:chromosome_location "11q13_2"^^xsd:string ;
+    ex:gene_MIM "620108"^^xsd:string ;
+    objprop:caused_by ex:620245 .
+
+ex:TOR1A a ex:gene ;
+    ex:chromosome_location "9q34_11"^^xsd:string ;
+    ex:gene_MIM "605204"^^xsd:string ;
+    objprop:caused_by ex:128100 .
+
+ex:TSPOAP1 a ex:gene ;
+    ex:chromosome_location "17q22"^^xsd:string ;
+    ex:gene_MIM "610764"^^xsd:string ;
+    objprop:caused_by ex:620453,
+        ex:620456 .
+
+ex:TUBB4A a ex:gene ;
+    ex:chromosome_location "19p13_3"^^xsd:string ;
+    ex:gene_MIM "602662"^^xsd:string ;
+    objprop:caused_by ex:128101 .
+
+ex:Talipes_equinovarus a ex:phenotype ;
+    ex:hpo_id "HP_0001762"^^xsd:string .
+
+ex:Unsteady_gait a ex:phenotype ;
+    ex:hpo_id "HP_0002317"^^xsd:string .
+
+ex:VPS11 a ex:gene ;
+    ex:chromosome_location "11q23_3"^^xsd:string ;
+    ex:gene_MIM "608549"^^xsd:string ;
+    objprop:caused_by ex:619637 .
+
+ex:VPS16 a ex:gene ;
+    ex:chromosome_location "20p13"^^xsd:string ;
+    ex:gene_MIM "608550"^^xsd:string ;
+    objprop:caused_by ex:619291 .
+
+ex:Vertical_supranuclear_gaze_palsy a ex:phenotype ;
+    ex:hpo_id "HP_0000511"^^xsd:string .
+
+ex:Visual_impairment a ex:phenotype ;
+    ex:hpo_id "HP_0000505"^^xsd:string .
+
+ex:XLR a ex:inheritance .
+
+ex:actin_binding a ex:MF .
+
+ex:autophagosome a ex:CC .
+
+ex:autophagy a ex:BP .
+
+ex:axon_terminus a ex:CC .
+
+ex:benzodiazepine_receptor_binding a ex:MF .
+
+ex:box_H_ACA_snoRNP_assembly a ex:BP .
+
+ex:calcium_activated_galactosylceramide_scrambling a ex:BP .
+
+ex:calcium_activated_phosphatidylcholine_scrambling a ex:BP .
+
+ex:calcium_activated_potassium_channel_activity a ex:MF .
+
+ex:calcium_ion_binding a ex:MF .
+
+ex:calmodulin_binding a ex:MF .
+
+ex:calyx_of_Held a ex:CC .
+
+ex:carbohydrate_transport a ex:BP .
+
+ex:catalytic_activity a ex:MF .
+
+ex:cell_adhesion a ex:BP .
+
+ex:cellular_response_to_calcium_ion a ex:BP .
+
+ex:cellular_response_to_oxidative_stress a ex:BP .
+
+ex:cellular_response_to_stimulus a ex:BP .
+
+ex:chaperone_cofactor_dependent_protein_refolding a ex:BP .
+
+ex:chloride_channel_activity a ex:MF .
+
+ex:chloride_transmembrane_transport a ex:BP .
+
+ex:chromatin_organization a ex:BP .
+
+ex:clathrin_coated_vesicle a ex:CC .
+
+ex:collagen_trimer a ex:CC .
+
+ex:cullin_family_protein_binding a ex:MF .
+
+ex:cytoplasmic_vesicle a ex:CC .
+
+ex:cytoplasmic_vesicle_membrane a ex:CC .
+
+ex:cytoskeleton_organization a ex:BP .
+
+ex:dendrite a ex:CC .
+
+ex:double_stranded_RNA_binding a ex:MF .
+
+ex:ear_development a ex:BP .
+
+ex:early_endosome a ex:CC .
+
+ex:endoplasmic_reticulum_calcium_ion_homeostasis a ex:BP .
+
+ex:endoplasmic_reticulum_lumen a ex:CC .
+
+ex:endothelial_cell_proliferation a ex:BP .
+
+ex:establishment_of_localization_in_cell a ex:BP .
+
+ex:establishment_or_maintenance_of_transmembrane_electrochemical_gradient a ex:BP .
+
+ex:extracellular_region a ex:CC .
+
+ex:fatty_acid_biosynthetic_process a ex:BP .
+
+ex:fatty_acid_metabolic_process a ex:BP .
+
+ex:glucose_transmembrane_transport a ex:BP .
+
+ex:glucose_transmembrane_transporter_activity a ex:MF .
+
+ex:growth_cone a ex:CC .
+
+ex:guanyl_nucleotide_binding a ex:MF .
+
+ex:histone_H3K4_methyltransferase_activity a ex:MF .
+
+ex:histone_H3K4_trimethyltransferase_activity a ex:MF .
+
+ex:histone_acetyltransferase_activity a ex:MF .
+
+ex:histone_methyltransferase_complex a ex:CC .
+
+ex:hydroxyacylglutathione_hydrolase_activity a ex:MF .
+
+ex:inner_ear_development a ex:BP .
+
+ex:intercellular_bridge a ex:CC .
+
+ex:intracellular_potassium_ion_homeostasis a ex:BP .
+
+ex:intracellular_sodium_ion_homeostasis a ex:BP .
+
+ex:intracellular_transport a ex:BP .
+
+ex:lipid_metabolic_process a ex:BP .
+
+ex:metabolic_process a ex:BP .
+
+ex:metalloaminopeptidase_activity a ex:MF .
+
+ex:metallopeptidase_activity a ex:MF .
+
+ex:methylation a ex:BP .
+
+ex:methylglyoxal_catabolic_process_to_D_lactate_via_S_lactoyl_glutathione a ex:BP .
+
+ex:methyltransferase_activity a ex:MF .
+
+ex:microtubule a ex:CC .
+
+ex:microtubule_based_process a ex:BP .
+
+ex:middle_ear_morphogenesis a ex:BP .
+
+ex:mitotic_spindle a ex:CC .
+
+ex:monoatomic_ion_transmembrane_transport a ex:BP .
+
+ex:negative_regulation_of_SNARE_complex_assembly a ex:BP .
+
+ex:negative_regulation_of_neurotransmitter_secretion a ex:BP .
+
+ex:negative_regulation_of_rRNA_processing a ex:BP .
+
+ex:negative_regulation_of_short_term_synaptic_potentiation a ex:BP .
+
+ex:nuclear_envelope a ex:CC .
+
+ex:nuclear_pore a ex:CC .
+
+ex:nucleolus a ex:CC .
+
+ex:obsolete_7_8_dihydroneopterin_3__triphosphate_biosynthetic_process a ex:BP .
+
+ex:outer_ear_morphogenesis a ex:BP .
+
+ex:oxidoreductase_activity a ex:MF .
+
+ex:perinuclear_region_of_cytoplasm a ex:CC .
+
+ex:phospholipid_scramblase_activity a ex:MF .
+
+ex:photoreceptor_inner_segment a ex:CC .
+
+ex:positive_regulation_of_apoptotic_process a ex:BP .
+
+ex:positive_regulation_of_cilium_assembly a ex:BP .
+
+ex:positive_regulation_of_intrinsic_apoptotic_signaling_pathway a ex:BP .
+
+ex:potassium_ion_import_across_plasma_membrane a ex:BP .
+
+ex:potassium_ion_transmembrane_transport a ex:BP .
+
+ex:presynapse a ex:CC .
+
+ex:presynaptic_cytosol a ex:CC .
+
+ex:presynaptic_membrane a ex:CC .
+
+ex:proteasome_mediated_ubiquitin_dependent_protein_catabolic_process a ex:BP .
+
+ex:protein_RNA_complex_assembly a ex:BP .
+
+ex:protein_containing_complex a ex:CC .
+
+ex:protein_dimerization_activity a ex:MF .
+
+ex:protein_homooligomerization a ex:BP .
+
+ex:protein_kinase_activity a ex:MF .
+
+ex:protein_serine_threonine_kinase_activity a ex:MF .
+
+ex:proton_transmembrane_transport a ex:BP .
+
+ex:regulation_of_calcium_dependent_activation_of_synaptic_vesicle_fusion a ex:BP .
+
+ex:regulation_of_dopamine_metabolic_process a ex:BP .
+
+ex:regulation_of_presynaptic_cytosolic_calcium_ion_concentration a ex:BP .
+
+ex:regulation_of_synaptic_transmission__dopaminergic a ex:BP .
+
+ex:sarcoglycan_complex a ex:CC .
+
+ex:sarcolemma a ex:CC .
+
+ex:sequence_specific_DNA_binding a ex:MF .
+
+ex:serine_type_endopeptidase_inhibitor_activity a ex:MF .
+
+ex:signal_transduction a ex:BP .
+
+ex:skeletal_system_morphogenesis a ex:BP .
+
+ex:small_conductance_calcium_activated_potassium_channel_activity a ex:MF .
+
+ex:sodium_ion_export_across_plasma_membrane a ex:BP .
+
+ex:sodium_ion_transport a ex:BP .
+
+ex:structural_constituent_of_cytoskeleton a ex:MF .
+
+ex:synaptic_vesicle a ex:CC .
+
+ex:synaptic_vesicle_fusion_to_presynaptic_active_zone_membrane a ex:BP .
+
+ex:syntaxin_1_binding a ex:MF .
+
+ex:tetrahydrobiopterin_biosynthetic_process a ex:BP .
+
+ex:tetrahydrofolate_biosynthetic_process a ex:BP .
+
+ex:transcription_by_RNA_polymerase_II a ex:BP .
+
+ex:transcription_factor_TFIID_complex a ex:CC .
+
+ex:translation_initiation_factor_activity a ex:MF .
+
+ex:translational_initiation a ex:BP .
+
+ex:transmembrane_transport a ex:BP .
+
+ex:transmembrane_transporter_activity a ex:MF .
+
+ex:ubiquitin_ligase_substrate_adaptor_activity a ex:MF .
+
+ex:unmethylated_CpG_binding a ex:MF .
+
+ex:vacuole_organization a ex:BP .
+
+ex:vesicle a ex:CC .
+
+ex:vesicle_mediated_transport a ex:BP .
+
+ex:vesicle_tethering_complex a ex:CC .
+
+ex:voltage_gated_calcium_channel_activity_involved_in_regulation_of_presynaptic_cytosolic_calcium_levels a ex:MF .
+
+ex:118800 a ex:disease ;
+    ex:disease_name "Paroxysmal_nonkinesigenic_dyskinesia_1"^^xsd:string ;
+    objprop:has ex:Dysarthria,
+        ex:Dysphagia,
+        ex:Facial_grimacing,
+        ex:Myokymia,
+        ex:Paroxysmal_choreoathetosis,
+        ex:Paroxysmal_dystonia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:128100 a ex:disease ;
+    ex:disease_name "Dystonia_1_torsion"^^xsd:string ;
+    objprop:has ex:Abnormal_posturing,
+        ex:Absent_Achilles_reflex,
+        ex:Babinski_sign,
+        ex:Blepharospasm,
+        ex:Depression,
+        ex:Dysarthria,
+        ex:Dysphagia,
+        ex:Facial_palsy,
+        ex:Generalized_dystonia,
+        ex:Generalized_hypotonia,
+        ex:Hyperlordosis,
+        ex:Hyperreflexia,
+        ex:Hypertonia,
+        ex:Hypotonia,
+        ex:Inability_to_walk,
+        ex:Kyphosis,
+        ex:Motor_delay,
+        ex:Multiple_joint_contractures,
+        ex:Oromandibular_dystonia,
+        ex:Scoliosis,
+        ex:Torsion_dystonia,
+        ex:Torticollis,
+        ex:Tremor,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:128101 a ex:disease ;
+    ex:disease_name "Dystonia_4_torsion_autosomal_dominant"^^xsd:string ;
+    objprop:has ex:Dysphagia,
+        ex:Dysphonia,
+        ex:Gait_ataxia,
+        ex:Generalized_dystonia,
+        ex:Hemidystonia,
+        ex:Limb_dystonia,
+        ex:Narrow_face,
+        ex:Slender_build,
+        ex:Sunken_cheeks,
+        ex:Torsion_dystonia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:128200 a ex:disease ;
+    ex:disease_name "Episodic_kinesigenic_dyskinesia_1"^^xsd:string ;
+    objprop:has ex:Abnormality_of_the_face,
+        ex:Oromandibular_dystonia,
+        ex:Paroxysmal_choreoathetosis,
+        ex:Paroxysmal_dystonia,
+        ex:Seizure ;
+    objprop:inheritance ex:AD .
+
+ex:128230 a ex:disease ;
+    ex:disease_name "Dystonia_DOPA_responsive"^^xsd:string ;
+    objprop:has ex:Babinski_sign,
+        ex:Bradykinesia,
+        ex:Cogwheel_rigidity,
+        ex:Dysarthria,
+        ex:Dysdiadochokinesis,
+        ex:Dystonia,
+        ex:Gait_ataxia,
+        ex:Gaze_evoked_horizontal_nystagmus,
+        ex:Hyperreflexia,
+        ex:Impaired_distal_vibration_sensation,
+        ex:Incoordination,
+        ex:Jaw_hyperreflexia,
+        ex:Parkinsonism_with_favorable_response_to_dopaminergic_medication,
+        ex:Pes_cavus,
+        ex:Postural_tremor,
+        ex:Resting_tremor,
+        ex:Scoliosis,
+        ex:Spasticity,
+        ex:Talipes_equinovarus,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD,
+        ex:AR .
+
+ex:128235 a ex:disease ;
+    ex:disease_name "Dystonia_12"^^xsd:string ;
+    objprop:has ex:Anxiety,
+        ex:Bradykinesia,
+        ex:Bulbar_signs,
+        ex:Depression,
+        ex:Drooling,
+        ex:Dysarthria,
+        ex:Dysphagia,
+        ex:Dystonia,
+        ex:Emotional_lability,
+        ex:Hypomimic_face,
+        ex:Mutism,
+        ex:Parkinsonism,
+        ex:Postural_instability,
+        ex:Torticollis,
+        ex:Tremor,
+        ex:Unsteady_gait ;
+    objprop:inheritance ex:AD .
+
+ex:159900 a ex:disease ;
+    ex:disease_name "Dystonia_11_myoclonic"^^xsd:string ;
+    objprop:has ex:Agoraphobia,
+        ex:Alcoholism,
+        ex:Anxiety,
+        ex:Depression,
+        ex:Hypotonia,
+        ex:Myoclonus,
+        ex:Panic_attack,
+        ex:Torticollis,
+        ex:Tremor,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:224500 a ex:disease ;
+    ex:disease_name "Dystonia_2_torsion_autosomal_recessive"^^xsd:string ;
+    objprop:has ex:Blepharospasm,
+        ex:Dysarthria,
+        ex:Dysphagia,
+        ex:Torsion_dystonia,
+        ex:Torticollis,
+        ex:Tremor ;
+    objprop:inheritance ex:AR .
+
+ex:314250 a ex:disease ;
+    ex:disease_name "Dystonia_Parkinsonism_X_linked"^^xsd:string ;
+    objprop:has ex:Chorea,
+        ex:Myoclonus,
+        ex:Parkinsonism_with_favorable_response_to_dopaminergic_medication,
+        ex:Torsion_dystonia,
+        ex:Tremor ;
+    objprop:inheritance ex:XLR .
+
+ex:601042 a ex:disease ;
+    ex:disease_name "Dystonia_9"^^xsd:string ;
+    objprop:has ex:Abnormal_pyramidal_sign,
+        ex:Choreoathetosis,
+        ex:Cognitive_impairment,
+        ex:Diplopia,
+        ex:Dysarthria,
+        ex:Dyskinesia,
+        ex:Dystonia,
+        ex:Episodic_ataxia,
+        ex:Headache,
+        ex:Hyperreflexia,
+        ex:Migraine,
+        ex:Paresthesia,
+        ex:Spasticity ;
+    objprop:inheritance ex:AD .
+
+ex:602124 a ex:disease ;
+    ex:disease_name "Dystonia_7_torsion"^^xsd:string ;
+    objprop:has ex:Blepharospasm,
+        ex:Clumsiness,
+        ex:Dysphonia,
+        ex:Hand_tremor,
+        ex:Oromandibular_dystonia,
+        ex:Skeletal_muscle_hypertrophy,
+        ex:Torsion_dystonia,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:602629 a ex:disease ;
+    ex:disease_name "Dystonia_6_torsion"^^xsd:string ;
+    objprop:has ex:Dysarthria,
+        ex:Dysphonia,
+        ex:Laryngeal_dystonia,
+        ex:Limb_dystonia,
+        ex:Lingual_dystonia,
+        ex:Myoclonus,
+        ex:Oromandibular_dystonia,
+        ex:Torsion_dystonia,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:607488 a ex:disease ;
+    ex:disease_name "Dystonia_15_myoclonic"^^xsd:string ;
+    objprop:has ex:Dystonia,
+        ex:Myoclonus,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:607671 a ex:disease ;
+    ex:disease_name "Dystonia_13_torsion"^^xsd:string ;
+    objprop:has ex:Blepharospasm,
+        ex:Limb_dystonia,
+        ex:Oromandibular_dystonia,
+        ex:Torsion_dystonia,
+        ex:Torticollis,
+        ex:Tremor,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:611031 a ex:disease ;
+    ex:disease_name "Episodic_kinesigenic_dyskinesia_2"^^xsd:string ;
+    objprop:has ex:Chorea,
+        ex:Dyskinesia,
+        ex:Dystonia,
+        ex:Involuntary_movements,
+        ex:Paroxysmal_dyskinesia ;
+    objprop:inheritance ex:AD .
+
+ex:611147 a ex:disease ;
+    ex:disease_name "Paroxysmal_nonkinesigenic_dyskinesia_2"^^xsd:string ;
+    objprop:has ex:Migraine,
+        ex:Paroxysmal_dystonia,
+        ex:Seizure ;
+    objprop:inheritance ex:AD .
+
+ex:612067 a ex:disease ;
+    ex:disease_name "Dystonia_16"^^xsd:string ;
+    objprop:has ex:Abnormal_pyramidal_sign,
+        ex:Bradykinesia,
+        ex:Cognitive_impairment,
+        ex:Delayed_speech_and_language_development,
+        ex:Dysarthria,
+        ex:Dyskinesia,
+        ex:Dysphagia,
+        ex:Dysphonia,
+        ex:Gait_disturbance,
+        ex:Generalized_dystonia,
+        ex:Hyperreflexia,
+        ex:Involuntary_movements,
+        ex:Laryngeal_dystonia,
+        ex:Limb_dystonia,
+        ex:Limb_pain,
+        ex:Lower_limb_pain,
+        ex:Motor_delay,
+        ex:Parkinsonism,
+        ex:Postural_tremor,
+        ex:Retrocollis ;
+    objprop:inheritance ex:AR .
+
+ex:612126 a ex:disease ;
+    ex:disease_name "GLUT1_deficiency_syndrome_2_childhood_onset"^^xsd:string ;
+    objprop:has ex:Ataxia,
+        ex:Choreoathetosis,
+        ex:Dyskinesia,
+        ex:Dystonia,
+        ex:Global_developmental_delay,
+        ex:Hemolytic_anemia,
+        ex:Irritability,
+        ex:Migraine,
+        ex:Seizure,
+        ex:Splenomegaly,
+        ex:Tremor ;
+    objprop:inheritance ex:AD .
+
+ex:612406 a ex:disease ;
+    ex:disease_name "Dystonia_17_primary_torsion"^^xsd:string ;
+    objprop:has ex:Dysarthria,
+        ex:Dysphonia,
+        ex:Focal_dystonia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AR .
+
+ex:614588 a ex:disease ;
+    ex:disease_name "Dystonia_21"^^xsd:string ;
+    objprop:has ex:Blepharospasm,
+        ex:Laryngeal_dystonia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:614860 a ex:disease ;
+    ex:disease_name "Dystonia_23"^^xsd:string ;
+    objprop:has ex:Arrhythmia,
+        ex:Axial_dystonia,
+        ex:Dysphonia,
+        ex:Gait_disturbance,
+        ex:Head_tremor,
+        ex:Limb_dystonia,
+        ex:Myoclonus,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:615034 a ex:disease ;
+    ex:disease_name "Dystonia_24"^^xsd:string ;
+    objprop:has ex:Arm_dystonia,
+        ex:Blepharospasm,
+        ex:Head_tremor,
+        ex:Limb_tremor,
+        ex:Oromandibular_dystonia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:615073 a ex:disease ;
+    ex:disease_name "Dystonia_25"^^xsd:string ;
+    objprop:has ex:Dysphonia,
+        ex:Laryngeal_dystonia,
+        ex:Limb_dystonia,
+        ex:Lingual_dystonia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:616398 a ex:disease ;
+    ex:disease_name "Dystonia_26_myoclonic"^^xsd:string ;
+    objprop:has ex:Anxiety,
+        ex:Blepharospasm,
+        ex:Depression,
+        ex:Dysarthria,
+        ex:Dysphonia,
+        ex:Dystonia,
+        ex:Laryngeal_dystonia,
+        ex:Myoclonus,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:616411 a ex:disease ;
+    ex:disease_name "Dystonia_27"^^xsd:string ;
+    objprop:has ex:Action_tremor,
+        ex:Laryngeal_dystonia,
+        ex:Limb_dystonia,
+        ex:Oromandibular_dystonia,
+        ex:Postural_tremor,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AR .
+
+ex:617282 a ex:disease ;
+    ex:disease_name "Dystonia_childhood_onset_with_optic_atrophy_and_basal_ganglia_abnormalities"^^xsd:string ;
+    objprop:has ex:Ataxia,
+        ex:Athetosis,
+        ex:Babinski_sign,
+        ex:Blepharospasm,
+        ex:Chorea,
+        ex:Clumsiness,
+        ex:Craniofacial_dystonia,
+        ex:Delayed_gross_motor_development,
+        ex:Dysarthria,
+        ex:Dyskinesia,
+        ex:Dysphagia,
+        ex:Dystonia,
+        ex:Esophoria,
+        ex:Failure_to_thrive,
+        ex:Feeding_difficulties,
+        ex:Gait_disturbance,
+        ex:Hyperreflexia,
+        ex:Hypotonia,
+        ex:Involuntary_movements,
+        ex:Limb_joint_contracture,
+        ex:Loss_of_ambulation,
+        ex:Myoclonus,
+        ex:Nystagmus,
+        ex:Optic_atrophy,
+        ex:Paroxysmal_dyskinesia,
+        ex:Pigmentary_retinopathy,
+        ex:Reduced_visual_acuity,
+        ex:Rigidity,
+        ex:Slow_saccadic_eye_movements,
+        ex:Spasticity,
+        ex:Visual_impairment ;
+    objprop:inheritance ex:AR .
+
+ex:617284 a ex:disease ;
+    ex:disease_name "Dystonia_28_childhood_onset"^^xsd:string ;
+    objprop:has ex:Abnormality_of_eye_movement,
+        ex:Astigmatism,
+        ex:Bulbous_nose,
+        ex:Cognitive_impairment,
+        ex:Craniofacial_dystonia,
+        ex:Delayed_speech_and_language_development,
+        ex:Dysarthria,
+        ex:Dysphonia,
+        ex:Dystonia,
+        ex:Gait_disturbance,
+        ex:Global_developmental_delay,
+        ex:Intellectual_disability,
+        ex:Laryngeal_dystonia,
+        ex:Microcephaly,
+        ex:Motor_delay,
+        ex:Myoclonus,
+        ex:Oromandibular_dystonia,
+        ex:Retrocollis,
+        ex:Short_stature,
+        ex:Spasticity,
+        ex:Strabismus,
+        ex:Tip_toe_gait,
+        ex:Torticollis,
+        ex:Tremor ;
+    objprop:inheritance ex:AD .
+
+ex:619291 a ex:disease ;
+    ex:disease_name "Dystonia_30"^^xsd:string ;
+    objprop:has ex:Aggressive_behavior,
+        ex:Arm_dystonia,
+        ex:Bipolar_affective_disorder,
+        ex:Diffuse_cerebral_atrophy,
+        ex:Dystonia,
+        ex:Hypothalamic_hamartoma,
+        ex:Impulsivity,
+        ex:Intellectual_disability,
+        ex:Leg_dystonia,
+        ex:Loss_of_ambulation,
+        ex:Oromandibular_dystonia,
+        ex:Seizure,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:619565 a ex:disease ;
+    ex:disease_name "Dystonia_31"^^xsd:string ;
+    objprop:has ex:Abnormal_posturing,
+        ex:Arm_dystonia,
+        ex:Craniofacial_dystonia,
+        ex:Depression,
+        ex:Difficulty_walking,
+        ex:Dysphagia,
+        ex:Generalized_dystonia,
+        ex:Leg_dystonia,
+        ex:Muscle_stiffness,
+        ex:Parkinsonism,
+        ex:Weak_voice,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AR .
+
+ex:619637 a ex:disease ;
+    ex:disease_name "Dystonia_32"^^xsd:string ;
+    objprop:has ex:Brain_atrophy,
+        ex:Dysarthria,
+        ex:Dysphagia,
+        ex:Laryngeal_dystonia,
+        ex:Limb_dystonia,
+        ex:Lower_limb_hyperreflexia,
+        ex:Torticollis ;
+    objprop:inheritance ex:AR .
+
+ex:619687 a ex:disease ;
+    ex:disease_name "Dystonia_33"^^xsd:string ;
+    objprop:has ex:Axial_dystonia,
+        ex:Axial_hypotonia,
+        ex:Babinski_sign,
+        ex:Dystonia,
+        ex:Global_developmental_delay,
+        ex:Intellectual_disability,
+        ex:Limb_dystonia,
+        ex:Neonatal_seizure,
+        ex:Pes_cavus,
+        ex:Spasticity,
+        ex:Vertical_supranuclear_gaze_palsy ;
+    objprop:inheritance ex:AD,
+        ex:AR .
+
+ex:619724 a ex:disease ;
+    ex:disease_name "Dystonia_34_myoclonic"^^xsd:string ;
+    objprop:has ex:Amblyopia,
+        ex:Duane_anomaly,
+        ex:Dystonia,
+        ex:Hand_tremor,
+        ex:Head_tremor,
+        ex:Hypermetric_saccades,
+        ex:Impaired_smooth_pursuit,
+        ex:Impaired_tandem_gait,
+        ex:Myoclonus,
+        ex:Ptosis,
+        ex:Rotary_nystagmus,
+        ex:Torticollis,
+        ex:Writer_s_cramp ;
+    objprop:inheritance ex:AD .
+
+ex:619921 a ex:disease ;
+    ex:disease_name "Dystonia_35_childhood_onset"^^xsd:string ;
+    objprop:has ex:Dystonia,
+        ex:Global_developmental_delay,
+        ex:Intellectual_disability ;
+    objprop:inheritance ex:AR .
+
+ex:620245 a ex:disease ;
+    ex:disease_name "Episodic_kinesigenic_dyskinesia_3"^^xsd:string ;
+    objprop:has ex:Choreoathetosis,
+        ex:Dystonia,
+        ex:Involuntary_movements,
+        ex:Torticollis ;
+    objprop:inheritance ex:AD .
+
+ex:620427 a ex:disease ;
+    ex:disease_name "Dystonia_37_early_onset_with_striatal_lesions"^^xsd:string ;
+    objprop:inheritance ex:AR .
+
+ex:620453 a ex:disease ;
+    ex:disease_name "Dystonia_22_juvenile_onset"^^xsd:string ;
+    objprop:has ex:Ataxia,
+        ex:Cognitive_decline,
+        ex:Cognitive_impairment,
+        ex:Constipation,
+        ex:Dysphagia,
+        ex:Dysphonia,
+        ex:Focal_dystonia,
+        ex:Gait_disturbance,
+        ex:Generalized_dystonia,
+        ex:Hand_tremor,
+        ex:Hypotonia,
+        ex:In_toeing_of_feet_bilateral,
+        ex:Intellectual_disability,
+        ex:Irritability,
+        ex:Limb_dystonia,
+        ex:Myoclonus,
+        ex:Night_sweats,
+        ex:Postural_tremor,
+        ex:Rigidity,
+        ex:Seizure,
+        ex:Spasticity,
+        ex:Tip_toe_gait,
+        ex:Weak_voice ;
+    objprop:inheritance ex:AR .
+
+ex:620456 a ex:disease ;
+    ex:disease_name "Dystonia_22_adult_onset"^^xsd:string ;
+    objprop:has ex:Cognitive_impairment,
+        ex:Focal_dystonia,
+        ex:Hand_tremor,
+        ex:Head_tremor,
+        ex:Postural_tremor,
+        ex:Torticollis ;
+    objprop:inheritance ex:AR .
+
+ex:ATP_hydrolysis_activity a ex:MF .
+
+ex:Abnormal_posturing a ex:phenotype ;
+    ex:hpo_id "HP_0002533"^^xsd:string .
+
+ex:Abnormal_pyramidal_sign a ex:phenotype ;
+    ex:hpo_id "HP_0007256"^^xsd:string .
+
+ex:Axial_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0002530"^^xsd:string .
+
+ex:CORVET_complex a ex:CC .
+
+ex:Clumsiness a ex:phenotype ;
+    ex:hpo_id "HP_0002312"^^xsd:string .
+
+ex:Delayed_speech_and_language_development a ex:phenotype ;
+    ex:hpo_id "HP_0000750"^^xsd:string .
+
+ex:GTP_binding a ex:MF .
+
+ex:GTPase_activity a ex:MF .
+
+ex:Gait_ataxia a ex:phenotype ;
+    ex:hpo_id "HP_0002066"^^xsd:string .
+
+ex:HOPS_complex a ex:CC .
+
+ex:Irritability a ex:phenotype ;
+    ex:hpo_id "HP_0000737"^^xsd:string .
+
+ex:Leg_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0031959"^^xsd:string .
+
+ex:Lingual_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0031008"^^xsd:string .
+
+ex:Loss_of_ambulation a ex:phenotype ;
+    ex:hpo_id "HP_0002505"^^xsd:string .
+
+ex:Parkinsonism_with_favorable_response_to_dopaminergic_medication a ex:phenotype ;
+    ex:hpo_id "HP_0002548"^^xsd:string .
+
+ex:Paroxysmal_choreoathetosis a ex:phenotype ;
+    ex:hpo_id "HP_0007098"^^xsd:string .
+
+ex:Paroxysmal_dyskinesia a ex:phenotype ;
+    ex:hpo_id "HP_0007166"^^xsd:string .
+
+ex:Pes_cavus a ex:phenotype ;
+    ex:hpo_id "HP_0001761"^^xsd:string .
+
+ex:RNA_binding a ex:MF .
+
+ex:Retrocollis a ex:phenotype ;
+    ex:hpo_id "HP_0002544"^^xsd:string .
+
+ex:Rigidity a ex:phenotype ;
+    ex:hpo_id "HP_0002063"^^xsd:string .
+
+ex:Scoliosis a ex:phenotype ;
+    ex:hpo_id "HP_0002650"^^xsd:string .
+
+ex:Tip_toe_gait a ex:phenotype ;
+    ex:hpo_id "HP_0030051"^^xsd:string .
+
+ex:Weak_voice a ex:phenotype ;
+    ex:hpo_id "HP_0001621"^^xsd:string .
+
+ex:cell_cycle a ex:BP .
+
+ex:cell_projection a ex:CC .
+
+ex:chromatin_remodeling a ex:BP .
+
+ex:cytoskeleton a ex:CC .
+
+ex:cytosol a ex:CC .
+
+ex:endomembrane_system a ex:CC .
+
+ex:endosome a ex:CC .
+
+ex:glutamatergic_synapse a ex:CC .
+
+ex:identical_protein_binding a ex:MF .
+
+ex:intracellular_membrane_bounded_organelle a ex:CC .
+
+ex:intracellular_protein_transport a ex:BP .
+
+ex:kinase_activity a ex:MF .
+
+ex:late_endosome_membrane a ex:CC .
+
+ex:lysosomal_membrane a ex:CC .
+
+ex:lysosome a ex:CC .
+
+ex:monoatomic_ion_transport a ex:BP .
+
+ex:neuromuscular_process_controlling_posture a ex:BP .
+
+ex:nucleoplasm a ex:CC .
+
+ex:phosphorylation a ex:BP .
+
+ex:potassium_ion_transport a ex:BP .
+
+ex:protein_transport a ex:BP .
+
+ex:regulation_of_DNA_templated_transcription a ex:BP .
+
+ex:transferase_activity a ex:MF .
+
+ex:zinc_ion_binding a ex:MF .
+
+ex:ATP_binding a ex:MF .
+
+ex:Anxiety a ex:phenotype ;
+    ex:hpo_id "HP_0000739"^^xsd:string .
+
+ex:Arm_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0031960"^^xsd:string .
+
+ex:Ataxia a ex:phenotype ;
+    ex:hpo_id "HP_0001251"^^xsd:string .
+
+ex:Bradykinesia a ex:phenotype ;
+    ex:hpo_id "HP_0002067"^^xsd:string .
+
+ex:Chorea a ex:phenotype ;
+    ex:hpo_id "HP_0002072"^^xsd:string .
+
+ex:Choreoathetosis a ex:phenotype ;
+    ex:hpo_id "HP_0001266"^^xsd:string .
+
+ex:Craniofacial_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0012179"^^xsd:string .
+
+ex:DNA_binding a ex:MF .
+
+ex:Focal_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0004373"^^xsd:string .
+
+ex:Migraine a ex:phenotype ;
+    ex:hpo_id "HP_0002076"^^xsd:string .
+
+ex:Motor_delay a ex:phenotype ;
+    ex:hpo_id "HP_0001270"^^xsd:string .
+
+ex:Parkinsonism a ex:phenotype ;
+    ex:hpo_id "HP_0001300"^^xsd:string .
+
+ex:Paroxysmal_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0002268"^^xsd:string .
+
+ex:endoplasmic_reticulum a ex:CC .
+
+ex:hydrolase_activity a ex:MF .
+
+ex:mitochondrion a ex:CC .
+
+ex:Babinski_sign a ex:phenotype ;
+    ex:hpo_id "HP_0003487"^^xsd:string .
+
+ex:Global_developmental_delay a ex:phenotype ;
+    ex:hpo_id "HP_0001263"^^xsd:string .
+
+ex:Hand_tremor a ex:phenotype ;
+    ex:hpo_id "HP_0002378"^^xsd:string .
+
+ex:Head_tremor a ex:phenotype ;
+    ex:hpo_id "HP_0002346"^^xsd:string .
+
+ex:Hypotonia a ex:phenotype ;
+    ex:hpo_id "HP_0001252"^^xsd:string .
+
+ex:Involuntary_movements a ex:phenotype ;
+    ex:hpo_id "HP_0004305"^^xsd:string .
+
+ex:Cognitive_impairment a ex:phenotype ;
+    ex:hpo_id "HP_0100543"^^xsd:string .
+
+ex:Depression a ex:phenotype ;
+    ex:hpo_id "HP_0000716"^^xsd:string .
+
+ex:Dyskinesia a ex:phenotype ;
+    ex:hpo_id "HP_0100660"^^xsd:string .
+
+ex:Gait_disturbance a ex:phenotype ;
+    ex:hpo_id "HP_0001288"^^xsd:string .
+
+ex:Generalized_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0007325"^^xsd:string .
+
+ex:Hyperreflexia a ex:phenotype ;
+    ex:hpo_id "HP_0001347"^^xsd:string .
+
+ex:Intellectual_disability a ex:phenotype ;
+    ex:hpo_id "HP_0001249"^^xsd:string .
+
+ex:Postural_tremor a ex:phenotype ;
+    ex:hpo_id "HP_0002174"^^xsd:string .
+
+ex:Seizure a ex:phenotype ;
+    ex:hpo_id "HP_0001250"^^xsd:string .
+
+ex:inheritance a owl:Class .
+
+ex:nucleotide_binding a ex:MF .
+
+ex:plasma_membrane a ex:CC .
+
+ex:Spasticity a ex:phenotype ;
+    ex:hpo_id "HP_0001257"^^xsd:string .
+
+ex:metal_ion_binding a ex:MF .
+
+ex:nucleus a ex:CC .
+
+ex:Torsion_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0001304"^^xsd:string .
+
+ex:Blepharospasm a ex:phenotype ;
+    ex:hpo_id "HP_0000643"^^xsd:string .
+
+ex:Laryngeal_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0012049"^^xsd:string .
+
+ex:Tremor a ex:phenotype ;
+    ex:hpo_id "HP_0001337"^^xsd:string .
+
+ex:Oromandibular_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0012048"^^xsd:string .
+
+ex:cytoplasm a ex:CC .
+
+ex:Dysphagia a ex:phenotype ;
+    ex:hpo_id "HP_0002015"^^xsd:string .
+
+ex:Dysphonia a ex:phenotype ;
+    ex:hpo_id "HP_0001618"^^xsd:string .
+
+ex:Limb_dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0002451"^^xsd:string .
+
+ex:Myoclonus a ex:phenotype ;
+    ex:hpo_id "HP_0001336"^^xsd:string .
+
+ex:Writer_s_cramp a ex:phenotype ;
+    ex:hpo_id "HP_0002356"^^xsd:string .
+
+ex:membrane a ex:CC .
+
+ex:AR a ex:inheritance .
+
+ex:Dysarthria a ex:phenotype ;
+    ex:hpo_id "HP_0001260"^^xsd:string .
+
+ex:Dystonia a ex:phenotype ;
+    ex:hpo_id "HP_0001332"^^xsd:string .
+
+ex:Torticollis a ex:phenotype ;
+    ex:hpo_id "HP_0000473"^^xsd:string .
+
+ex:AD a ex:inheritance .
+
+ex:protein a owl:Class ;
+    objprop:has ex:BP,
+        ex:CC,
+        ex:MF ;
+    ex:protein_length "None"^^xsd:string ;
+    ex:protein_name "None"^^xsd:string ;
+    ex:protein_weight "None"^^xsd:string .
+
+ex:gene a owl:Class ;
+    ex:chromosome_location "None"^^xsd:string ;
+    ex:gene_MIM "None"^^xsd:string ;
+    objprop:codes_for ex:protein .
+
+ex:disease a owl:Class ;
+    ex:disease_name "None"^^xsd:string ;
+    objprop:causes ex:gene ;
+    objprop:has ex:inheritance,
+        ex:phenotype ;
+    objprop:is_a ex:118800,
+        ex:128100,
+        ex:128101,
+        ex:128200,
+        ex:128230,
+        ex:128235,
+        ex:159900,
+        ex:224500,
+        ex:314250,
+        ex:601042,
+        ex:602124,
+        ex:602629,
+        ex:607488,
+        ex:607671,
+        ex:611031,
+        ex:611147,
+        ex:612067,
+        ex:612126,
+        ex:612406,
+        ex:614588,
+        ex:614860,
+        ex:615034,
+        ex:615073,
+        ex:616398,
+        ex:616411,
+        ex:617282,
+        ex:617284,
+        ex:619291,
+        ex:619565,
+        ex:619637,
+        ex:619687,
+        ex:619724,
+        ex:619921,
+        ex:620245,
+        ex:620427,
+        ex:620453,
+        ex:620456 .
+
+ex:CC a owl:Class .
+
+ex:MF a owl:Class .
+
+ex:BP a owl:Class .
+
+ex:phenotype a owl:Class .
+

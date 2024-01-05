@@ -1,0 +1,4825 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d17" for="edge" attr.name="edge_name" attr.type="string"/>
+<key id="d16" for="node" attr.name="hpo_id" attr.type="string"/>
+<key id="d15" for="node" attr.name="Unnamed: 11" attr.type="double"/>
+<key id="d14" for="node" attr.name="Unnamed: 10" attr.type="double"/>
+<key id="d13" for="node" attr.name="Unnamed: 9" attr.type="double"/>
+<key id="d12" for="node" attr.name="Unnamed: 8" attr.type="double"/>
+<key id="d11" for="node" attr.name="Unnamed: 7" attr.type="double"/>
+<key id="d10" for="node" attr.name="Unnamed: 6" attr.type="double"/>
+<key id="d9" for="node" attr.name="disease_name" attr.type="string"/>
+<key id="d8" for="node" attr.name="chromosome_location" attr.type="string"/>
+<key id="d7" for="node" attr.name="disease_MIM" attr.type="long"/>
+<key id="d6" for="node" attr.name="category" attr.type="string"/>
+<key id="d5" for="node" attr.name="gene_MIM" attr.type="long"/>
+<key id="d4" for="node" attr.name="protein_length" attr.type="long"/>
+<key id="d3" for="node" attr.name="protein_weight" attr.type="long"/>
+<key id="d2" for="node" attr.name="protein_name" attr.type="string"/>
+<key id="d1" for="node" attr.name="gene_name" attr.type="string"/>
+<key id="d0" for="node" attr.name="supranode" attr.type="string"/>
+<graph edgedefault="undirected"><node id="disease">
+  <data key="d0">disease</data>
+</node>
+<node id="gene">
+  <data key="d0">gene</data>
+</node>
+<node id="protein">
+  <data key="d0">protein</data>
+</node>
+<node id="phenotype">
+  <data key="d0">phenotype</data>
+</node>
+<node id="inheritance">
+  <data key="d0">inheritance</data>
+</node>
+<node id="BP">
+  <data key="d0">BP</data>
+</node>
+<node id="CC">
+  <data key="d0">CC</data>
+</node>
+<node id="MF">
+  <data key="d0">MF</data>
+</node>
+<node id="Q9BYT9">
+  <data key="d1">ANO3</data>
+  <data key="d2">Anoctamin_3</data>
+  <data key="d3">114657</data>
+  <data key="d4">986</data>
+  <data key="d5">610110</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q8N6M6">
+  <data key="d1">AOPEP</data>
+  <data key="d2">Aminopeptidase_O_(putative)</data>
+  <data key="d3">93572</data>
+  <data key="d4">819</data>
+  <data key="d5">619600</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P13637">
+  <data key="d1">ATP1A3</data>
+  <data key="d2">ATPase_Na+_K+_transporting_subunit_alpha_3</data>
+  <data key="d3">111748</data>
+  <data key="d4">1013</data>
+  <data key="d5">182350</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P12111">
+  <data key="d1">COL6A3</data>
+  <data key="d2">Collagen_type_VI_alpha_3_chain</data>
+  <data key="d3">343669</data>
+  <data key="d4">3177</data>
+  <data key="d5">120250</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P19525">
+  <data key="d1">EIF2AK2</data>
+  <data key="d2">Eukaryotic_translation_initiation_factor_2_alpha_kinase_2</data>
+  <data key="d3">62094</data>
+  <data key="d4">551</data>
+  <data key="d5">176871</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P30793">
+  <data key="d1">GCH1</data>
+  <data key="d2">GTP_cyclohydrolase_1</data>
+  <data key="d3">27903</data>
+  <data key="d4">250</data>
+  <data key="d5">600225</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P38405">
+  <data key="d1">GNAL</data>
+  <data key="d2">G_protein_subunit_alpha_L</data>
+  <data key="d3">52455</data>
+  <data key="d4">381</data>
+  <data key="d5">139312</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P84074">
+  <data key="d1">HPCA</data>
+  <data key="d2">Hippocalcin</data>
+  <data key="d3">22427</data>
+  <data key="d4">193</data>
+  <data key="d5">142622</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q9H2S1">
+  <data key="d1">KCNN2</data>
+  <data key="d2">Potassium_calcium_activated_channel_subfamily_N_member_2</data>
+  <data key="d3">63759</data>
+  <data key="d4">579</data>
+  <data key="d5">605879</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q8N5Z5">
+  <data key="d1">KCTD17</data>
+  <data key="d2">Potassium_channel_tetramerization_domain_containing_17</data>
+  <data key="d3">33276</data>
+  <data key="d4">321</data>
+  <data key="d5">616386</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q9UMN6">
+  <data key="d1">KMT2B</data>
+  <data key="d2">Lysine_methyltransferase_2B</data>
+  <data key="d3">293515</data>
+  <data key="d4">2715</data>
+  <data key="d5">606834</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q9BV79">
+  <data key="d1">MECR</data>
+  <data key="d2">Mitochondrial_trans_2_enoyl_CoA_reductase</data>
+  <data key="d3">40462</data>
+  <data key="d4">373</data>
+  <data key="d5">608205</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q8N490">
+  <data key="d1">PNKD</data>
+  <data key="d2">PNKD_metallo_beta_lactamase_domain_containing</data>
+  <data key="d3">42876</data>
+  <data key="d4">385</data>
+  <data key="d5">609023</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="O75569">
+  <data key="d1">PRKRA</data>
+  <data key="d2">Protein_activator_of_interferon_induced_protein_kinase_EIF2AK2</data>
+  <data key="d3">34404</data>
+  <data key="d4">313</data>
+  <data key="d5">603424</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q7Z6L0">
+  <data key="d1">PRRT2</data>
+  <data key="d2">Proline_rich_transmembrane_protein_2</data>
+  <data key="d3">34945</data>
+  <data key="d4">340</data>
+  <data key="d5">614386</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="O43556">
+  <data key="d1">SGCE</data>
+  <data key="d2">Sarcoglycan_epsilon</data>
+  <data key="d3">52535</data>
+  <data key="d4">437</data>
+  <data key="d5">604149</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q6PI26">
+  <data key="d1">SHQ1</data>
+  <data key="d2">SHQ1_H_ACA_ribonucleoprotein_assembly_factor</data>
+  <data key="d3">65125</data>
+  <data key="d4">577</data>
+  <data key="d5">613663</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P11166">
+  <data key="d1">SLC2A1</data>
+  <data key="d2">Solute_carrier_family_2_member_1</data>
+  <data key="d3">54084</data>
+  <data key="d4">492</data>
+  <data key="d5">138140</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P21675">
+  <data key="d1">TAF1</data>
+  <data key="d2">TATA_box_binding_protein_associated_factor_1</data>
+  <data key="d3">214714</data>
+  <data key="d4">1872</data>
+  <data key="d5">313650</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q9NVV9">
+  <data key="d1">THAP1</data>
+  <data key="d2">THAP_domain_containing_1</data>
+  <data key="d3">24944</data>
+  <data key="d4">213</data>
+  <data key="d5">609520</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q8N4L1">
+  <data key="d1">TMEM151A</data>
+  <data key="d2">Transmembrane_protein_151A</data>
+  <data key="d3">51278</data>
+  <data key="d4">468</data>
+  <data key="d5">620108</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="O14656">
+  <data key="d1">TOR1A</data>
+  <data key="d2">Torsin_family_1_member_A</data>
+  <data key="d3">37809</data>
+  <data key="d4">332</data>
+  <data key="d5">605204</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P04350">
+  <data key="d1">TUBB4A</data>
+  <data key="d2">Tubulin_beta_4A_class_IVa</data>
+  <data key="d3">49586</data>
+  <data key="d4">444</data>
+  <data key="d5">602662</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q9H270">
+  <data key="d1">VPS11</data>
+  <data key="d2">VPS11_core_subunit_of_CORVET_and_HOPS_complexes</data>
+  <data key="d3">107808</data>
+  <data key="d4">941</data>
+  <data key="d5">608549</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q9H269">
+  <data key="d1">VPS16</data>
+  <data key="d2">VPS16_core_subunit_of_CORVET_and_HOPS_complexes</data>
+  <data key="d3">94693</data>
+  <data key="d4">839</data>
+  <data key="d5">608550</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Q7Z3B4">
+  <data key="d1">NUP54</data>
+  <data key="d2">Nucleoporin p54</data>
+  <data key="d3">55435</data>
+  <data key="d4">507</data>
+  <data key="d5">607607</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="O95153">
+  <data key="d1">TSPOAP1</data>
+  <data key="d2">TSPO_Associated_Protein_1</data>
+  <data key="d3">200051</data>
+  <data key="d4">1857</data>
+  <data key="d5">610764</data>
+  <data key="d0">protein</data>
+  <data key="d6">instance</data>
+</node>
+<node id="ANO3">
+  <data key="d5">610110</data>
+  <data key="d7">615034</data>
+  <data key="d8">11p14_3_p14_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="AOPEP">
+  <data key="d5">619600</data>
+  <data key="d7">619565</data>
+  <data key="d8">9q22_32</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="ATP1A3">
+  <data key="d5">182350</data>
+  <data key="d7">128235</data>
+  <data key="d8">19q13_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="COL6A3">
+  <data key="d5">120250</data>
+  <data key="d7">616411</data>
+  <data key="d8">2q37_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DYT13">
+  <data key="d5">607671</data>
+  <data key="d7">607671</data>
+  <data key="d8">1p36_32_p36_13</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DYT15">
+  <data key="d5">607488</data>
+  <data key="d7">607488</data>
+  <data key="d8">18p11</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DYT17">
+  <data key="d5">612406</data>
+  <data key="d7">612406</data>
+  <data key="d8">20p11_2_q13_12</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DYT21">
+  <data key="d5">614588</data>
+  <data key="d7">614588</data>
+  <data key="d8">2q14_3_q21_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DYT23">
+  <data key="d5">614860</data>
+  <data key="d7">614860</data>
+  <data key="d8">9q34</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DYT7">
+  <data key="d5">602124</data>
+  <data key="d7">602124</data>
+  <data key="d8">18p</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="EIF2AK2">
+  <data key="d5">176871</data>
+  <data key="d7">619687</data>
+  <data key="d8">2p22_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="EKD2">
+  <data key="d5">611031</data>
+  <data key="d7">611031</data>
+  <data key="d8">16q13_q22_1</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="GCH1">
+  <data key="d5">600225</data>
+  <data key="d7">128230</data>
+  <data key="d8">14q22_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="GNAL">
+  <data key="d5">139312</data>
+  <data key="d7">615073</data>
+  <data key="d8">18p11_21</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="HPCA">
+  <data key="d5">142622</data>
+  <data key="d7">224500</data>
+  <data key="d8">1p35_1</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="KCNN2">
+  <data key="d5">605879</data>
+  <data key="d7">619724</data>
+  <data key="d8">5q22_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="KCTD17">
+  <data key="d5">616386</data>
+  <data key="d7">616398</data>
+  <data key="d8">22q12_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="KMT2B">
+  <data key="d5">606834</data>
+  <data key="d7">617284</data>
+  <data key="d8">19q13_12</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="MECR">
+  <data key="d5">608205</data>
+  <data key="d7">617282</data>
+  <data key="d8">1p35_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="NUP54">
+  <data key="d5">607607</data>
+  <data key="d7">620427</data>
+  <data key="d8">4q21_1</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="PNKD">
+  <data key="d5">609023</data>
+  <data key="d7">118800</data>
+  <data key="d8">2q35</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="PNKD2">
+  <data key="d5">611147</data>
+  <data key="d7">611147</data>
+  <data key="d8">2q31</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="PRKRA">
+  <data key="d5">603424</data>
+  <data key="d7">612067</data>
+  <data key="d8">2q31_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="PRRT2">
+  <data key="d5">614386</data>
+  <data key="d7">128200</data>
+  <data key="d8">16p11_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="SGCE">
+  <data key="d5">604149</data>
+  <data key="d7">159900</data>
+  <data key="d8">7q21_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="SHQ1">
+  <data key="d5">613663</data>
+  <data key="d7">619921</data>
+  <data key="d8">3p13</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="SLC2A1">
+  <data key="d5">138140</data>
+  <data key="d7">601042</data>
+  <data key="d8">1p34_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="TAF1">
+  <data key="d5">313650</data>
+  <data key="d7">314250</data>
+  <data key="d8">Xq13_1</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="THAP1">
+  <data key="d5">609520</data>
+  <data key="d7">602629</data>
+  <data key="d8">8p11_21</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="TMEM151A">
+  <data key="d5">620108</data>
+  <data key="d7">620245</data>
+  <data key="d8">11q13_2</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="TOR1A">
+  <data key="d5">605204</data>
+  <data key="d7">128100</data>
+  <data key="d8">9q34_11</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="TSPOAP1">
+  <data key="d5">610764</data>
+  <data key="d7">620456</data>
+  <data key="d8">17q22</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="TUBB4A">
+  <data key="d5">602662</data>
+  <data key="d7">128101</data>
+  <data key="d8">19p13_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="VPS11">
+  <data key="d5">608549</data>
+  <data key="d7">619637</data>
+  <data key="d8">11q23_3</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="VPS16">
+  <data key="d5">608550</data>
+  <data key="d7">619291</data>
+  <data key="d8">20p13</data>
+  <data key="d0">gene</data>
+  <data key="d6">instance</data>
+</node>
+<node id="615034">
+  <data key="d9">Dystonia_24</data>
+  <data key="d1">ANO3</data>
+  <data key="d5">610110</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="619565">
+  <data key="d9">Dystonia_31</data>
+  <data key="d1">AOPEP</data>
+  <data key="d5">619600</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="128235">
+  <data key="d9">Dystonia_12</data>
+  <data key="d1">ATP1A3</data>
+  <data key="d5">182350</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="616411">
+  <data key="d9">Dystonia_27</data>
+  <data key="d1">COL6A3</data>
+  <data key="d5">120250</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="607671">
+  <data key="d9">Dystonia_13_torsion</data>
+  <data key="d1">DYT13</data>
+  <data key="d5">607671</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="607488">
+  <data key="d9">Dystonia_15_myoclonic</data>
+  <data key="d1">DYT15</data>
+  <data key="d5">607488</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="612406">
+  <data key="d9">Dystonia_17_primary_torsion</data>
+  <data key="d1">DYT17</data>
+  <data key="d5">612406</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="614588">
+  <data key="d9">Dystonia_21</data>
+  <data key="d1">DYT21</data>
+  <data key="d5">614588</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="614860">
+  <data key="d9">Dystonia_23</data>
+  <data key="d1">DYT23</data>
+  <data key="d5">614860</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="602124">
+  <data key="d9">Dystonia_7_torsion</data>
+  <data key="d1">DYT7</data>
+  <data key="d5">602124</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="619687">
+  <data key="d9">Dystonia_33</data>
+  <data key="d1">EIF2AK2</data>
+  <data key="d5">176871</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="611031">
+  <data key="d9">Episodic_kinesigenic_dyskinesia_2</data>
+  <data key="d1">EKD2</data>
+  <data key="d5">611031</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="128230">
+  <data key="d9">Dystonia_DOPA_responsive</data>
+  <data key="d1">GCH1</data>
+  <data key="d5">600225</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="615073">
+  <data key="d9">Dystonia_25</data>
+  <data key="d1">GNAL</data>
+  <data key="d5">139312</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="224500">
+  <data key="d9">Dystonia_2_torsion_autosomal_recessive</data>
+  <data key="d1">HPCA</data>
+  <data key="d5">142622</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="619724">
+  <data key="d9">Dystonia_34_myoclonic</data>
+  <data key="d1">KCNN2</data>
+  <data key="d5">605879</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="616398">
+  <data key="d9">Dystonia_26_myoclonic</data>
+  <data key="d1">KCTD17</data>
+  <data key="d5">616386</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="617284">
+  <data key="d9">Dystonia_28_childhood_onset</data>
+  <data key="d1">KMT2B</data>
+  <data key="d5">606834</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="617282">
+  <data key="d9">Dystonia_childhood_onset_with_optic_atrophy_and_basal_ganglia_abnormalities</data>
+  <data key="d1">MECR</data>
+  <data key="d5">608205</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="620427">
+  <data key="d9">Dystonia_37_early_onset_with_striatal_lesions</data>
+  <data key="d1">NUP54</data>
+  <data key="d5">607607</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="118800">
+  <data key="d9">Paroxysmal_nonkinesigenic_dyskinesia_1</data>
+  <data key="d1">PNKD</data>
+  <data key="d5">609023</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="611147">
+  <data key="d9">Paroxysmal_nonkinesigenic_dyskinesia_2</data>
+  <data key="d1">PNKD2</data>
+  <data key="d5">611147</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="612067">
+  <data key="d9">Dystonia_16</data>
+  <data key="d1">PRKRA</data>
+  <data key="d5">603424</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="128200">
+  <data key="d9">Episodic_kinesigenic_dyskinesia_1</data>
+  <data key="d1">PRRT2</data>
+  <data key="d5">614386</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">0.0</data>
+</node>
+<node id="159900">
+  <data key="d9">Dystonia_11_myoclonic</data>
+  <data key="d1">SGCE</data>
+  <data key="d5">604149</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="619921">
+  <data key="d9">Dystonia_35_childhood_onset</data>
+  <data key="d1">SHQ1</data>
+  <data key="d5">613663</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="612126">
+  <data key="d9">GLUT1_deficiency_syndrome_2_childhood_onset</data>
+  <data key="d1">SLC2A1</data>
+  <data key="d5">138140</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="601042">
+  <data key="d9">Dystonia_9</data>
+  <data key="d1">SLC2A1</data>
+  <data key="d5">138140</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="314250">
+  <data key="d9">Dystonia_Parkinsonism_X_linked</data>
+  <data key="d1">TAF1</data>
+  <data key="d5">313650</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="602629">
+  <data key="d9">Dystonia_6_torsion</data>
+  <data key="d1">THAP1</data>
+  <data key="d5">609520</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="620245">
+  <data key="d9">Episodic_kinesigenic_dyskinesia_3</data>
+  <data key="d1">TMEM151A</data>
+  <data key="d5">620108</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="128100">
+  <data key="d9">Dystonia_1_torsion</data>
+  <data key="d1">TOR1A</data>
+  <data key="d5">605204</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="620453">
+  <data key="d9">Dystonia_22_juvenile_onset</data>
+  <data key="d1">TSPOAP1</data>
+  <data key="d5">610764</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="620456">
+  <data key="d9">Dystonia_22_adult_onset</data>
+  <data key="d1">TSPOAP1</data>
+  <data key="d5">610764</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="128101">
+  <data key="d9">Dystonia_4_torsion_autosomal_dominant</data>
+  <data key="d1">TUBB4A</data>
+  <data key="d5">602662</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="619637">
+  <data key="d9">Dystonia_32</data>
+  <data key="d1">VPS11</data>
+  <data key="d5">608549</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="619291">
+  <data key="d9">Dystonia_30</data>
+  <data key="d1">VPS16</data>
+  <data key="d5">608550</data>
+  <data key="d0">disease</data>
+  <data key="d6">instance</data>
+  <data key="d10">nan</data>
+  <data key="d11">nan</data>
+  <data key="d12">nan</data>
+  <data key="d13">nan</data>
+  <data key="d14">nan</data>
+  <data key="d15">nan</data>
+</node>
+<node id="Abnormal_posturing">
+  <data key="d16">HP_0002533</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Abnormal_pyramidal_sign">
+  <data key="d16">HP_0007256</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Abnormality_of_eye_movement">
+  <data key="d16">HP_0000496</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Abnormality_of_the_face">
+  <data key="d16">HP_0000271</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Absent_Achilles_reflex">
+  <data key="d16">HP_0003438</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Action_tremor">
+  <data key="d16">HP_0002345</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Aggressive_behavior">
+  <data key="d16">HP_0000718</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Agoraphobia">
+  <data key="d16">HP_0000756</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Alcoholism">
+  <data key="d16">HP_0030955</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Amblyopia">
+  <data key="d16">HP_0000646</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Anxiety">
+  <data key="d16">HP_0000739</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Arm_dystonia">
+  <data key="d16">HP_0031960</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Arrhythmia">
+  <data key="d16">HP_0011675</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Astigmatism">
+  <data key="d16">HP_0000483</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Ataxia">
+  <data key="d16">HP_0001251</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Athetosis">
+  <data key="d16">HP_0002305</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Axial_dystonia">
+  <data key="d16">HP_0002530</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Axial_hypotonia">
+  <data key="d16">HP_0008936</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Babinski_sign">
+  <data key="d16">HP_0003487</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Bipolar_affective_disorder">
+  <data key="d16">HP_0007302</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Blepharospasm">
+  <data key="d16">HP_0000643</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Bradykinesia">
+  <data key="d16">HP_0002067</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Brain_atrophy">
+  <data key="d16">HP_0012444</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Bulbar_signs">
+  <data key="d16">HP_0002483</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Bulbous_nose">
+  <data key="d16">HP_0000414</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Chorea">
+  <data key="d16">HP_0002072</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Choreoathetosis">
+  <data key="d16">HP_0001266</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Clumsiness">
+  <data key="d16">HP_0002312</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Cognitive_decline">
+  <data key="d16">HP_0001268</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Cognitive_impairment">
+  <data key="d16">HP_0100543</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Cogwheel_rigidity">
+  <data key="d16">HP_0002396</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Constipation">
+  <data key="d16">HP_0002019</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Craniofacial_dystonia">
+  <data key="d16">HP_0012179</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Delayed_gross_motor_development">
+  <data key="d16">HP_0002194</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Delayed_speech_and_language_development">
+  <data key="d16">HP_0000750</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Depression">
+  <data key="d16">HP_0000716</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Difficulty_walking">
+  <data key="d16">HP_0002355</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Diffuse_cerebral_atrophy">
+  <data key="d16">HP_0002506</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Diplopia">
+  <data key="d16">HP_0000651</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Drooling">
+  <data key="d16">HP_0002307</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Duane_anomaly">
+  <data key="d16">HP_0009921</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Dysarthria">
+  <data key="d16">HP_0001260</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Dysdiadochokinesis">
+  <data key="d16">HP_0002075</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Dyskinesia">
+  <data key="d16">HP_0100660</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Dysphagia">
+  <data key="d16">HP_0002015</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Dysphonia">
+  <data key="d16">HP_0001618</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Dystonia">
+  <data key="d16">HP_0001332</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Emotional_lability">
+  <data key="d16">HP_0000712</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Episodic_ataxia">
+  <data key="d16">HP_0002131</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Esophoria">
+  <data key="d16">HP_0025312</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Facial_grimacing">
+  <data key="d16">HP_0000273</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Facial_palsy">
+  <data key="d16">HP_0010628</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Failure_to_thrive">
+  <data key="d16">HP_0001508</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Feeding_difficulties">
+  <data key="d16">HP_0011968</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Focal_dystonia">
+  <data key="d16">HP_0004373</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Gait_ataxia">
+  <data key="d16">HP_0002066</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Gait_disturbance">
+  <data key="d16">HP_0001288</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Gaze_evoked_horizontal_nystagmus">
+  <data key="d16">HP_0007979</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Generalized_dystonia">
+  <data key="d16">HP_0007325</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Generalized_hypotonia">
+  <data key="d16">HP_0001290</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Global_developmental_delay">
+  <data key="d16">HP_0001263</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hand_tremor">
+  <data key="d16">HP_0002378</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Head_tremor">
+  <data key="d16">HP_0002346</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Headache">
+  <data key="d16">HP_0002315</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hemidystonia">
+  <data key="d16">HP_0032005</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hemolytic_anemia">
+  <data key="d16">HP_0001878</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hyperlordosis">
+  <data key="d16">HP_0003307</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hypermetric_saccades">
+  <data key="d16">HP_0007338</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hyperreflexia">
+  <data key="d16">HP_0001347</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hypertonia">
+  <data key="d16">HP_0001276</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hypomimic_face">
+  <data key="d16">HP_0000338</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hypothalamic_hamartoma">
+  <data key="d16">HP_0002444</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Hypotonia">
+  <data key="d16">HP_0001252</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Impaired_distal_vibration_sensation">
+  <data key="d16">HP_0006886</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Impaired_smooth_pursuit">
+  <data key="d16">HP_0007772</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Impaired_tandem_gait">
+  <data key="d16">HP_0031629</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Impulsivity">
+  <data key="d16">HP_0100710</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="In_toeing_of_feet_bilateral">
+  <data key="d16">HP_0001840</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Inability_to_walk">
+  <data key="d16">HP_0002540</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Incoordination">
+  <data key="d16">HP_0002311</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Intellectual_disability">
+  <data key="d16">HP_0001249</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Involuntary_movements">
+  <data key="d16">HP_0004305</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Irritability">
+  <data key="d16">HP_0000737</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Jaw_hyperreflexia">
+  <data key="d16">HP_0033683</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Kyphosis">
+  <data key="d16">HP_0002808</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Laryngeal_dystonia">
+  <data key="d16">HP_0012049</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Leg_dystonia">
+  <data key="d16">HP_0031959</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Limb_dystonia">
+  <data key="d16">HP_0002451</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Limb_joint_contracture">
+  <data key="d16">HP_0003121</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Limb_pain">
+  <data key="d16">HP_0009763</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Limb_tremor">
+  <data key="d16">HP_0200085</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Lingual_dystonia">
+  <data key="d16">HP_0031008</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Loss_of_ambulation">
+  <data key="d16">HP_0002505</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Lower_limb_hyperreflexia">
+  <data key="d16">HP_0002395</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Lower_limb_pain">
+  <data key="d16">HP_0012514</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Microcephaly">
+  <data key="d16">HP_0000252</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Migraine">
+  <data key="d16">HP_0002076</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Motor_delay">
+  <data key="d16">HP_0001270</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Multiple_joint_contractures">
+  <data key="d16">HP_0002828</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Muscle_stiffness">
+  <data key="d16">HP_0003552</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Mutism">
+  <data key="d16">HP_0002300</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Myoclonus">
+  <data key="d16">HP_0001336</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Myokymia">
+  <data key="d16">HP_0002411</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Narrow_face">
+  <data key="d16">HP_0000275</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Neonatal_seizure">
+  <data key="d16">HP_0032807</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Night_sweats">
+  <data key="d16">HP_0032807</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Nystagmus">
+  <data key="d16">HP_0000639</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Optic_atrophy">
+  <data key="d16">HP_0000648</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Oromandibular_dystonia">
+  <data key="d16">HP_0012048</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Panic_attack">
+  <data key="d16">HP_0025269</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Paresthesia">
+  <data key="d16">HP_0003401</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Parkinsonism">
+  <data key="d16">HP_0001300</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Parkinsonism_with_favorable_response_to_dopaminergic_medication">
+  <data key="d16">HP_0002548</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Paroxysmal_choreoathetosis">
+  <data key="d16">HP_0007098</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Paroxysmal_dyskinesia">
+  <data key="d16">HP_0007166</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Paroxysmal_dystonia">
+  <data key="d16">HP_0002268</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Pes_cavus">
+  <data key="d16">HP_0001761</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Pigmentary_retinopathy">
+  <data key="d16">HP_0000580</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Postural_instability">
+  <data key="d16">HP_0002172</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Postural_tremor">
+  <data key="d16">HP_0002174</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Ptosis">
+  <data key="d16">HP_0000508</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Reduced_visual_acuity">
+  <data key="d16">HP_0007663</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Resting_tremor">
+  <data key="d16">HP_0002322</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Retrocollis">
+  <data key="d16">HP_0002544</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Rigidity">
+  <data key="d16">HP_0002063</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Rotary_nystagmus">
+  <data key="d16">HP_0001583</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Scoliosis">
+  <data key="d16">HP_0002650</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Seizure">
+  <data key="d16">HP_0001250</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Short_stature">
+  <data key="d16">HP_0004322</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Skeletal_muscle_hypertrophy">
+  <data key="d16">HP_0003712</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Slender_build">
+  <data key="d16">HP_0001533</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Slow_saccadic_eye_movements">
+  <data key="d16">HP_0000514</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Spasticity">
+  <data key="d16">HP_0001257</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Splenomegaly">
+  <data key="d16">HP_0001744</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Strabismus">
+  <data key="d16">HP_0000486</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Sunken_cheeks">
+  <data key="d16">HP_0009938</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Talipes_equinovarus">
+  <data key="d16">HP_0001762</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Tip_toe_gait">
+  <data key="d16">HP_0030051</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Torsion_dystonia">
+  <data key="d16">HP_0001304</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Torticollis">
+  <data key="d16">HP_0000473</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Tremor">
+  <data key="d16">HP_0001337</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Unsteady_gait">
+  <data key="d16">HP_0002317</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Vertical_supranuclear_gaze_palsy">
+  <data key="d16">HP_0000511</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Visual_impairment">
+  <data key="d16">HP_0000505</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Weak_voice">
+  <data key="d16">HP_0001621</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Writer_s_cramp">
+  <data key="d16">HP_0002356</data>
+  <data key="d0">phenotype</data>
+  <data key="d6">instance</data>
+</node>
+<node id="AD">
+  <data key="d0">inheritance</data>
+  <data key="d6">instance</data>
+</node>
+<node id="AR">
+  <data key="d0">inheritance</data>
+  <data key="d6">instance</data>
+</node>
+<node id="XLR">
+  <data key="d0">inheritance</data>
+  <data key="d6">instance</data>
+</node>
+<node id="early_endosome">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="nuclear_pore">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cell_projection">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="endoplasmic_reticulum_lumen">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Golgi_apparatus">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="sarcolemma">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="extracellular_region">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="HOPS_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="nucleus">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="glutamatergic_synapse">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cytoplasm">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="perinuclear_region_of_cytoplasm">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="vesicle">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="plasma_membrane">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="presynaptic_cytosol">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="vesicle_tethering_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cytoplasmic_vesicle_membrane">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_containing_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="CORVET_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="endomembrane_system">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="growth_cone">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="microtubule">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="Cul3_RING_ubiquitin_ligase_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="endosome">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="mitochondrion">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="presynapse">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="lysosomal_membrane">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="late_endosome_membrane">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="endoplasmic_reticulum">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="autophagosome">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="presynaptic_membrane">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="transcription_factor_TFIID_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cytoplasmic_vesicle">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cytosol">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="intracellular_membrane_bounded_organelle">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="lysosome">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="nucleolus">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="intercellular_bridge">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="dendrite">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="nucleoplasm">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="histone_methyltransferase_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="synaptic_vesicle">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="clathrin_coated_vesicle">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="MLL_1_2_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="calyx_of_Held">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="collagen_trimer">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="photoreceptor_inner_segment">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="mitotic_spindle">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cytoskeleton">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="membrane">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="nuclear_envelope">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="sarcoglycan_complex">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="axon_terminus">
+  <data key="d0">CC</data>
+  <data key="d6">instance</data>
+</node>
+<node id="identical_protein_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="ubiquitin_ligase_substrate_adaptor_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="metal_ion_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P_type_sodium_potassium_exchanging_transporter_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="chloride_channel_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="hydrolase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="structural_constituent_of_cytoskeleton">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="unmethylated_CpG_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="histone_acetyltransferase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="phospholipid_scramblase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="GTP_cyclohydrolase_I_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="actin_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="calcium_activated_potassium_channel_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cullin_family_protein_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="GTP_cyclohydrolase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DNA_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="guanyl_nucleotide_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="small_conductance_calcium_activated_potassium_channel_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="voltage_gated_calcium_channel_activity_involved_in_regulation_of_presynaptic_cytosolic_calcium_levels">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="nucleotide_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="benzodiazepine_receptor_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="GTP_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_dimerization_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="methyltransferase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="GTPase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="calmodulin_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="histone_H3K4_methyltransferase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="catalytic_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="zinc_ion_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="syntaxin_1_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="RNA_polymerase_II_general_transcription_initiation_factor_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="G_protein_beta_gamma_subunit_complex_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="oxidoreductase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="P_type_potassium_transmembrane_transporter_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="kinase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_serine_threonine_kinase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="transmembrane_transporter_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="translation_initiation_factor_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="glucose_transmembrane_transporter_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="calcium_ion_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="TBP_class_protein_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="sequence_specific_DNA_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="metalloaminopeptidase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="hydroxyacylglutathione_hydrolase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DNA_binding_transcription_factor_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="serine_type_endopeptidase_inhibitor_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_kinase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="RNA_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="histone_H3K4_trimethyltransferase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="double_stranded_RNA_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="ATP_hydrolysis_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="metallopeptidase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="transferase_activity">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="ATP_binding">
+  <data key="d0">MF</data>
+  <data key="d6">instance</data>
+</node>
+<node id="negative_regulation_of_neurotransmitter_secretion">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="positive_regulation_of_intrinsic_apoptotic_signaling_pathway">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cellular_response_to_oxidative_stress">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="regulation_of_calcium_dependent_activation_of_synaptic_vesicle_fusion">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="negative_regulation_of_rRNA_processing">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_homooligomerization">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="regulation_of_presynaptic_cytosolic_calcium_ion_concentration">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="positive_regulation_of_apoptotic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="chromatin_remodeling">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="methylation">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="proton_transmembrane_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="translational_initiation">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="intracellular_sodium_ion_homeostasis">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="chaperone_cofactor_dependent_protein_refolding">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="positive_regulation_of_cilium_assembly">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="box_H_ACA_snoRNP_assembly">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="chloride_transmembrane_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="DNA_templated_transcription_initiation">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="endoplasmic_reticulum_calcium_ion_homeostasis">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="obsolete_7_8_dihydroneopterin_3__triphosphate_biosynthetic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="intracellular_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="inner_ear_development">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cellular_response_to_calcium_ion">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="metabolic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="regulation_of_DNA_templated_transcription">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="methylglyoxal_catabolic_process_to_D_lactate_via_S_lactoyl_glutathione">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="negative_regulation_of_SNARE_complex_assembly">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="potassium_ion_import_across_plasma_membrane">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="monoatomic_ion_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="potassium_ion_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="ear_development">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="phosphorylation">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="intracellular_potassium_ion_homeostasis">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="G_protein_coupled_receptor_signaling_pathway">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="potassium_ion_transmembrane_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="regulation_of_synaptic_transmission__dopaminergic">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="middle_ear_morphogenesis">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="establishment_of_localization_in_cell">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="protein_RNA_complex_assembly">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="regulation_of_dopamine_metabolic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="transmembrane_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="outer_ear_morphogenesis">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="vesicle_mediated_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="vacuole_organization">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="sodium_ion_export_across_plasma_membrane">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="intracellular_protein_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="transcription_by_RNA_polymerase_II">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cell_adhesion">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="chromatin_organization">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="fatty_acid_biosynthetic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="fatty_acid_metabolic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="carbohydrate_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="glucose_transmembrane_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cell_cycle">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="neuromuscular_process_controlling_posture">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="lipid_metabolic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="endothelial_cell_proliferation">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="calcium_activated_galactosylceramide_scrambling">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="skeletal_system_morphogenesis">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cellular_response_to_stimulus">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="cytoskeleton_organization">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="synaptic_vesicle_fusion_to_presynaptic_active_zone_membrane">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="establishment_or_maintenance_of_transmembrane_electrochemical_gradient">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="tetrahydrobiopterin_biosynthetic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="proteasome_mediated_ubiquitin_dependent_protein_catabolic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="calcium_activated_phosphatidylcholine_scrambling">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="monoatomic_ion_transmembrane_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="signal_transduction">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="microtubule_based_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="autophagy">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="sodium_ion_transport">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="tetrahydrofolate_biosynthetic_process">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<node id="negative_regulation_of_short_term_synaptic_potentiation">
+  <data key="d0">BP</data>
+  <data key="d6">instance</data>
+</node>
+<edge source="disease" target="gene">
+  <data key="d17">causes</data>
+</edge>
+<edge source="disease" target="phenotype">
+  <data key="d17">has</data>
+</edge>
+<edge source="disease" target="inheritance">
+  <data key="d17">has</data>
+</edge>
+<edge source="disease" target="607671">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="617282">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="224500">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="601042">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="612126">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="619687">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="614588">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="611147">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="612067">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="118800">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="616411">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="619921">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="620427">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="619724">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="159900">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="602629">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="619565">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="614860">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="128100">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="615034">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="620245">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="619637">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="128230">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="128200">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="611031">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="620456">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="620453">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="607488">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="602124">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="615073">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="128101">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="617284">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="128235">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="619291">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="612406">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="616398">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="disease" target="314250">
+  <data key="d17">is_a</data>
+</edge>
+<edge source="gene" target="protein">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="protein" target="CC">
+  <data key="d17">has</data>
+</edge>
+<edge source="protein" target="MF">
+  <data key="d17">has</data>
+</edge>
+<edge source="protein" target="BP">
+  <data key="d17">has</data>
+</edge>
+<edge source="Q9BYT9" target="ANO3">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9BYT9" target="calcium_activated_galactosylceramide_scrambling">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BYT9" target="calcium_activated_phosphatidylcholine_scrambling">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BYT9" target="chloride_channel_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9BYT9" target="chloride_transmembrane_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BYT9" target="establishment_of_localization_in_cell">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BYT9" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9BYT9" target="phospholipid_scramblase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9BYT9" target="plasma_membrane">
+  <data key="d17">is_active_in</data>
+</edge>
+<edge source="Q9BYT9" target="protein_dimerization_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N6M6" target="AOPEP">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q8N6M6" target="metalloaminopeptidase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N6M6" target="metallopeptidase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N6M6" target="nucleolus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N6M6" target="zinc_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="ATP1A3">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P13637" target="ATP_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="ATP_hydrolysis_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="establishment_or_maintenance_of_transmembrane_electrochemical_gradient">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="intracellular_potassium_ion_homeostasis">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="intracellular_sodium_ion_homeostasis">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P13637" target="metal_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="monoatomic_ion_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="nucleotide_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="P_type_potassium_transmembrane_transporter_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="P_type_sodium_potassium_exchanging_transporter_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P13637" target="plasma_membrane">
+  <data key="d17">is_active_in</data>
+</edge>
+<edge source="P13637" target="potassium_ion_import_across_plasma_membrane">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="potassium_ion_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="proton_transmembrane_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="sodium_ion_export_across_plasma_membrane">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P13637" target="sodium_ion_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P12111" target="COL6A3">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P12111" target="cell_adhesion">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P12111" target="collagen_trimer">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="P12111" target="extracellular_region">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P12111" target="serine_type_endopeptidase_inhibitor_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="EIF2AK2">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P19525" target="ATP_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="double_stranded_RNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="kinase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="nucleotide_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="phosphorylation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P19525" target="protein_kinase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="RNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="transferase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="translation_initiation_factor_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P19525" target="translational_initiation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P30793" target="GCH1">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P30793" target="catalytic_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P30793" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P30793" target="GTP_cyclohydrolase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P30793" target="GTP_cyclohydrolase_I_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P30793" target="hydrolase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P30793" target="metabolic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P30793" target="nucleus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P30793" target="obsolete_7_8_dihydroneopterin_3__triphosphate_biosynthetic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P30793" target="tetrahydrobiopterin_biosynthetic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P30793" target="tetrahydrofolate_biosynthetic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P38405" target="GNAL">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P38405" target="cellular_response_to_stimulus">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P38405" target="G_protein_beta_gamma_subunit_complex_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P38405" target="G_protein_coupled_receptor_signaling_pathway">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P38405" target="GTP_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P38405" target="GTPase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P38405" target="guanyl_nucleotide_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P38405" target="metal_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P38405" target="nucleotide_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P38405" target="signal_transduction">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P84074" target="HPCA">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P84074" target="actin_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P84074" target="calcium_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P84074" target="cellular_response_to_calcium_ion">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P84074" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P84074" target="cytosol">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P84074" target="identical_protein_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P84074" target="inner_ear_development">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P84074" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P84074" target="metal_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9H2S1" target="KCNN2">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9H2S1" target="calcium_activated_potassium_channel_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9H2S1" target="calmodulin_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9H2S1" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H2S1" target="monoatomic_ion_transmembrane_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H2S1" target="monoatomic_ion_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H2S1" target="potassium_ion_transmembrane_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H2S1" target="potassium_ion_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H2S1" target="small_conductance_calcium_activated_potassium_channel_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N5Z5" target="KCTD17">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q8N5Z5" target="Cul3_RING_ubiquitin_ligase_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q8N5Z5" target="cullin_family_protein_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N5Z5" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N5Z5" target="endoplasmic_reticulum">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N5Z5" target="endoplasmic_reticulum_calcium_ion_homeostasis">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N5Z5" target="identical_protein_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N5Z5" target="positive_regulation_of_cilium_assembly">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N5Z5" target="proteasome_mediated_ubiquitin_dependent_protein_catabolic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N5Z5" target="protein_homooligomerization">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N5Z5" target="ubiquitin_ligase_substrate_adaptor_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="KMT2B">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9UMN6" target="chromatin_organization">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9UMN6" target="chromatin_remodeling">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9UMN6" target="DNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="histone_H3K4_methyltransferase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="histone_H3K4_trimethyltransferase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="histone_methyltransferase_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9UMN6" target="metal_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="methylation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9UMN6" target="methyltransferase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="MLL_1_2_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9UMN6" target="nucleus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9UMN6" target="regulation_of_DNA_templated_transcription">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9UMN6" target="transferase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="unmethylated_CpG_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9UMN6" target="zinc_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9BV79" target="MECR">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9BV79" target="fatty_acid_biosynthetic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BV79" target="fatty_acid_metabolic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BV79" target="lipid_metabolic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9BV79" target="mitochondrion">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9BV79" target="oxidoreductase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N490" target="PNKD">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q8N490" target="hydrolase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N490" target="hydroxyacylglutathione_hydrolase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N490" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N490" target="metal_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N490" target="methylglyoxal_catabolic_process_to_D_lactate_via_S_lactoyl_glutathione">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N490" target="mitochondrion">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N490" target="negative_regulation_of_neurotransmitter_secretion">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N490" target="neuromuscular_process_controlling_posture">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N490" target="presynaptic_cytosol">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N490" target="regulation_of_dopamine_metabolic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q8N490" target="regulation_of_synaptic_transmission__dopaminergic">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="PRKRA">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="O75569" target="cellular_response_to_oxidative_stress">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="ear_development">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="kinase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O75569" target="middle_ear_morphogenesis">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="outer_ear_morphogenesis">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="perinuclear_region_of_cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O75569" target="phosphorylation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="positive_regulation_of_intrinsic_apoptotic_signaling_pathway">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O75569" target="RNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O75569" target="skeletal_system_morphogenesis">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z6L0" target="PRRT2">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q7Z6L0" target="axon_terminus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z6L0" target="glutamatergic_synapse">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z6L0" target="membrane">
+  <data key="d17">is_active_in</data>
+</edge>
+<edge source="Q7Z6L0" target="negative_regulation_of_short_term_synaptic_potentiation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z6L0" target="negative_regulation_of_SNARE_complex_assembly">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z6L0" target="neuromuscular_process_controlling_posture">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z6L0" target="plasma_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z6L0" target="presynapse">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z6L0" target="presynaptic_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z6L0" target="regulation_of_calcium_dependent_activation_of_synaptic_vesicle_fusion">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z6L0" target="synaptic_vesicle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z6L0" target="synaptic_vesicle_fusion_to_presynaptic_active_zone_membrane">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z6L0" target="syntaxin_1_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q7Z6L0" target="vesicle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="SGCE">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="O43556" target="cell_projection">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="cytoskeleton">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="dendrite">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="Golgi_apparatus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="plasma_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O43556" target="sarcoglycan_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="O43556" target="sarcolemma">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q6PI26" target="SHQ1">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q6PI26" target="box_H_ACA_snoRNP_assembly">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q6PI26" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q6PI26" target="cytosol">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q6PI26" target="negative_regulation_of_rRNA_processing">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q6PI26" target="nucleoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q6PI26" target="positive_regulation_of_apoptotic_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q6PI26" target="protein_RNA_complex_assembly">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P11166" target="SLC2A1">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P11166" target="carbohydrate_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P11166" target="glucose_transmembrane_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P11166" target="glucose_transmembrane_transporter_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P11166" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P11166" target="photoreceptor_inner_segment">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P11166" target="plasma_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P11166" target="transmembrane_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P11166" target="transmembrane_transporter_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P21675" target="TAF1">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P21675" target="cell_cycle">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P21675" target="chromatin_remodeling">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P21675" target="DNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P21675" target="DNA_templated_transcription_initiation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P21675" target="histone_acetyltransferase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P21675" target="nucleus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P21675" target="protein_serine_threonine_kinase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P21675" target="RNA_polymerase_II_general_transcription_initiation_factor_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P21675" target="TBP_class_protein_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P21675" target="transcription_by_RNA_polymerase_II">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P21675" target="transcription_factor_TFIID_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9NVV9" target="THAP1">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9NVV9" target="cell_cycle">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9NVV9" target="DNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9NVV9" target="DNA_binding_transcription_factor_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9NVV9" target="endothelial_cell_proliferation">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9NVV9" target="nucleoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9NVV9" target="nucleus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9NVV9" target="regulation_of_DNA_templated_transcription">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9NVV9" target="sequence_specific_DNA_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q8N4L1" target="TMEM151A">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q8N4L1" target="endoplasmic_reticulum">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q8N4L1" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="TOR1A">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="O14656" target="ATP_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O14656" target="ATP_hydrolysis_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O14656" target="cell_projection">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="chaperone_cofactor_dependent_protein_refolding">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O14656" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="cytoplasmic_vesicle_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="endomembrane_system">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="endoplasmic_reticulum">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="endoplasmic_reticulum_lumen">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="growth_cone">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="hydrolase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O14656" target="intracellular_membrane_bounded_organelle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O14656" target="nucleotide_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O14656" target="nucleus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P04350" target="TUBB4A">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="P04350" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P04350" target="cytoskeleton">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P04350" target="cytoskeleton_organization">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P04350" target="GTP_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P04350" target="GTPase_activity">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P04350" target="intercellular_bridge">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P04350" target="microtubule">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P04350" target="microtubule_based_process">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="P04350" target="mitotic_spindle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="P04350" target="nucleotide_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="P04350" target="structural_constituent_of_cytoskeleton">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9H270" target="VPS11">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9H270" target="autophagosome">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="autophagy">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H270" target="clathrin_coated_vesicle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="CORVET_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9H270" target="cytoplasmic_vesicle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="early_endosome">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="endosome">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="HOPS_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9H270" target="intracellular_protein_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H270" target="intracellular_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H270" target="late_endosome_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="lysosomal_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="lysosome">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H270" target="metal_ion_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="Q9H270" target="protein_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H270" target="vesicle_mediated_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H270" target="vesicle_tethering_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9H269" target="VPS16">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q9H269" target="CORVET_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9H269" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="endomembrane_system">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="endosome">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="HOPS_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9H269" target="intracellular_membrane_bounded_organelle">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="intracellular_protein_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H269" target="late_endosome_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="lysosomal_membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="lysosome">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="membrane">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q9H269" target="protein_containing_complex">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q9H269" target="protein_transport">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q9H269" target="vacuole_organization">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="Q7Z3B4" target="NUP54">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="Q7Z3B4" target="nuclear_envelope">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="Q7Z3B4" target="nuclear_pore">
+  <data key="d17">part_of</data>
+</edge>
+<edge source="Q7Z3B4" target="nucleus">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O95153" target="TSPOAP1">
+  <data key="d17">codes_for</data>
+</edge>
+<edge source="O95153" target="benzodiazepine_receptor_binding">
+  <data key="d17">enables</data>
+</edge>
+<edge source="O95153" target="calyx_of_Held">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O95153" target="cytoplasm">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O95153" target="glutamatergic_synapse">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O95153" target="mitochondrion">
+  <data key="d17">located_in</data>
+</edge>
+<edge source="O95153" target="regulation_of_presynaptic_cytosolic_calcium_ion_concentration">
+  <data key="d17">involved_in</data>
+</edge>
+<edge source="O95153" target="voltage_gated_calcium_channel_activity_involved_in_regulation_of_presynaptic_cytosolic_calcium_levels">
+  <data key="d17">enables</data>
+</edge>
+<edge source="ANO3" target="615034">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="AOPEP" target="619565">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="ATP1A3" target="128235">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="COL6A3" target="616411">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="DYT13" target="607671">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="DYT15" target="607488">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="DYT17" target="612406">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="DYT21" target="614588">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="DYT23" target="614860">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="DYT7" target="602124">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="EIF2AK2" target="619687">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="EKD2" target="611031">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="GCH1" target="128230">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="GNAL" target="615073">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="HPCA" target="224500">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="KCNN2" target="619724">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="KCTD17" target="616398">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="KMT2B" target="617284">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="MECR" target="617282">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="NUP54" target="620427">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="PNKD" target="118800">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="PNKD2" target="611147">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="PRKRA" target="612067">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="PRRT2" target="128200">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="SGCE" target="159900">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="SHQ1" target="619921">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="SLC2A1" target="601042">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="SLC2A1" target="612126">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="TAF1" target="314250">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="THAP1" target="602629">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="TMEM151A" target="620245">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="TOR1A" target="128100">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="TSPOAP1" target="620456">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="TSPOAP1" target="620453">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="TUBB4A" target="128101">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="VPS11" target="619637">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="VPS16" target="619291">
+  <data key="d17">caused_by</data>
+</edge>
+<edge source="615034" target="Arm_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="615034" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="615034" target="Head_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="615034" target="Limb_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="615034" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="615034" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="615034" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619565" target="Abnormal_posturing">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Arm_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Craniofacial_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Depression">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Difficulty_walking">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Generalized_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Leg_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Muscle_stiffness">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Parkinsonism">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Weak_voice">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="619565" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="128235" target="Anxiety">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Bradykinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Bulbar_signs">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Depression">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Drooling">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Emotional_lability">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Hypomimic_face">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Mutism">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Parkinsonism">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Postural_instability">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="Unsteady_gait">
+  <data key="d17">has</data>
+</edge>
+<edge source="128235" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="616411" target="Action_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="Postural_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="616411" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="607671" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="607671" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="607488" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="607488" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="607488" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="607488" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="612406" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="612406" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612406" target="Focal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612406" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="612406" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="614588" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="614588" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="614588" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="614588" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="614860" target="Arrhythmia">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Axial_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Gait_disturbance">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Head_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="614860" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="602124" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Clumsiness">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Hand_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Skeletal_muscle_hypertrophy">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="602124" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619687" target="Axial_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Axial_hypotonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Babinski_sign">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Global_developmental_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Intellectual_disability">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Neonatal_seizure">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Pes_cavus">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Spasticity">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="Vertical_supranuclear_gaze_palsy">
+  <data key="d17">has</data>
+</edge>
+<edge source="619687" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619687" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="611031" target="Chorea">
+  <data key="d17">has</data>
+</edge>
+<edge source="611031" target="Dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="611031" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="611031" target="Involuntary_movements">
+  <data key="d17">has</data>
+</edge>
+<edge source="611031" target="Paroxysmal_dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="611031" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="128230" target="Babinski_sign">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Bradykinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Cogwheel_rigidity">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Dysdiadochokinesis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Gait_ataxia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Gaze_evoked_horizontal_nystagmus">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Impaired_distal_vibration_sensation">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Incoordination">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Jaw_hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Parkinsonism_with_favorable_response_to_dopaminergic_medication">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Pes_cavus">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Postural_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Resting_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Scoliosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Spasticity">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Talipes_equinovarus">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="128230" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="128230" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="615073" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="615073" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="615073" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="615073" target="Lingual_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="615073" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="615073" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="224500" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="224500" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="224500" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="224500" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="224500" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="224500" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="224500" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619724" target="Amblyopia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Duane_anomaly">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Hand_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Head_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Hypermetric_saccades">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Impaired_smooth_pursuit">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Impaired_tandem_gait">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Ptosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Rotary_nystagmus">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="619724" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="616398" target="Anxiety">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Depression">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="616398" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="617284" target="Abnormality_of_eye_movement">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Astigmatism">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Bulbous_nose">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Cognitive_impairment">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Craniofacial_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Delayed_speech_and_language_development">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Gait_disturbance">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Global_developmental_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Intellectual_disability">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Microcephaly">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Motor_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Retrocollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Short_stature">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Spasticity">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Strabismus">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Tip_toe_gait">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="617284" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="617282" target="Ataxia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Athetosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Babinski_sign">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Chorea">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Clumsiness">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Craniofacial_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Delayed_gross_motor_development">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Esophoria">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Failure_to_thrive">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Feeding_difficulties">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Gait_disturbance">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Hypotonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Involuntary_movements">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Limb_joint_contracture">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Loss_of_ambulation">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Nystagmus">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Optic_atrophy">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Paroxysmal_dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Pigmentary_retinopathy">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Reduced_visual_acuity">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Rigidity">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Slow_saccadic_eye_movements">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Spasticity">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="Visual_impairment">
+  <data key="d17">has</data>
+</edge>
+<edge source="617282" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="620427" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="118800" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="Facial_grimacing">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="Myokymia">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="Paroxysmal_choreoathetosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="Paroxysmal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="118800" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="611147" target="Migraine">
+  <data key="d17">has</data>
+</edge>
+<edge source="611147" target="Paroxysmal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="611147" target="Seizure">
+  <data key="d17">has</data>
+</edge>
+<edge source="611147" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="612067" target="Abnormal_pyramidal_sign">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Bradykinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Cognitive_impairment">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Delayed_speech_and_language_development">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Gait_disturbance">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Generalized_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Involuntary_movements">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Limb_pain">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Lower_limb_pain">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Motor_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Parkinsonism">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Postural_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="Retrocollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="612067" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="128200" target="Abnormality_of_the_face">
+  <data key="d17">has</data>
+</edge>
+<edge source="128200" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128200" target="Paroxysmal_choreoathetosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128200" target="Paroxysmal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128200" target="Seizure">
+  <data key="d17">has</data>
+</edge>
+<edge source="128200" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="159900" target="Agoraphobia">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Alcoholism">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Anxiety">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Depression">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Hypotonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Panic_attack">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="159900" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619921" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619921" target="Global_developmental_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="619921" target="Intellectual_disability">
+  <data key="d17">has</data>
+</edge>
+<edge source="619921" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="612126" target="Ataxia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Choreoathetosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Global_developmental_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Hemolytic_anemia">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Irritability">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Migraine">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Seizure">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Splenomegaly">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="612126" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="601042" target="Abnormal_pyramidal_sign">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Choreoathetosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Cognitive_impairment">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Diplopia">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Dyskinesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Episodic_ataxia">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Headache">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Migraine">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Paresthesia">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="Spasticity">
+  <data key="d17">has</data>
+</edge>
+<edge source="601042" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="314250" target="Chorea">
+  <data key="d17">has</data>
+</edge>
+<edge source="314250" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="314250" target="Parkinsonism_with_favorable_response_to_dopaminergic_medication">
+  <data key="d17">has</data>
+</edge>
+<edge source="314250" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="314250" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="314250" target="XLR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="602629" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Lingual_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="602629" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="620245" target="Choreoathetosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="620245" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620245" target="Involuntary_movements">
+  <data key="d17">has</data>
+</edge>
+<edge source="620245" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="620245" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="128100" target="Abnormal_posturing">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Absent_Achilles_reflex">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Babinski_sign">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Blepharospasm">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Depression">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Facial_palsy">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Generalized_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Generalized_hypotonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Hyperlordosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Hypertonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Hypotonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Inability_to_walk">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Kyphosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Motor_delay">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Multiple_joint_contractures">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Scoliosis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="128100" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="620453" target="Ataxia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Cognitive_decline">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Cognitive_impairment">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Constipation">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Focal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Gait_disturbance">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Generalized_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Hand_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Hypotonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="In_toeing_of_feet_bilateral">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Intellectual_disability">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Irritability">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Myoclonus">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Night_sweats">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Postural_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Rigidity">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Seizure">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Spasticity">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Tip_toe_gait">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="Weak_voice">
+  <data key="d17">has</data>
+</edge>
+<edge source="620453" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="620456" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="620456" target="Cognitive_impairment">
+  <data key="d17">has</data>
+</edge>
+<edge source="620456" target="Focal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="620456" target="Hand_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="620456" target="Head_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="620456" target="Postural_tremor">
+  <data key="d17">has</data>
+</edge>
+<edge source="620456" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="128101" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Dysphonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Gait_ataxia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Generalized_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Hemidystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Narrow_face">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Slender_build">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Sunken_cheeks">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Torsion_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="128101" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619637" target="Brain_atrophy">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="Dysarthria">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="Dysphagia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="Laryngeal_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="Limb_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="Lower_limb_hyperreflexia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="619637" target="AR">
+  <data key="d17">inheritance</data>
+</edge>
+<edge source="619291" target="Aggressive_behavior">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Arm_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Bipolar_affective_disorder">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Diffuse_cerebral_atrophy">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Hypothalamic_hamartoma">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Impulsivity">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Intellectual_disability">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Leg_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Loss_of_ambulation">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Oromandibular_dystonia">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Seizure">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Torticollis">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="Writer_s_cramp">
+  <data key="d17">has</data>
+</edge>
+<edge source="619291" target="AD">
+  <data key="d17">inheritance</data>
+</edge>
+</graph></graphml>

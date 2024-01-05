@@ -1,0 +1,9 @@
+﻿node_name,category
+disease,disease
+gene,gene
+protein,protein
+phenotype,phenotype
+inheritance,inheritance
+BP,BP
+CC,CC
+MF,MF

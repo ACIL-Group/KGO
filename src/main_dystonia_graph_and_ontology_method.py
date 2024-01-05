@@ -21,7 +21,7 @@ from rdflib import Graph, Namespace, RDF, RDFS, OWL, XSD, Literal
 import matplotlib.pyplot as plt
 
 # Change the working directory to where your data is located
-os.chdir('/Users/danielhier/desktop/networkx')
+# os.chdir('/Users/danielhier/desktop/networkx')
 
 ########################################################
 # Data Files                                           #

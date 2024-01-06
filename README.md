@@ -10,6 +10,7 @@
   - [Usage](#usage)
     - [Setup](#setup)
     - [Execution](#execution)
+  - [Citation](#citation)
 
 ## Summary
 
@@ -57,3 +58,9 @@ python src/main_dystonia_graph_and_ontology_method.py
 
 Three files are generated and saved to the `out/` directory.
 Examples of the files that should be generated can be seen in the `example_output/` directory.
+
+## Citation
+
+This project has a [citation file](CITATION.cff) file that generates citation information for the repository, which can be accessed at the "Cite this repository button" under the "About" section of the GitHub page.
+
+The latest archival of the project is also at [https://doi.org/10.5281/zenodo.10463050](https://doi.org/10.5281/zenodo.10463050), which has its own tools for generating citations according to your favorite citation style.

@@ -26,7 +26,7 @@ The project is laid out as follows:
 
 This project contains a main Python script that processes biomedical gene-phenotype dystonia data and outputs graph files of various kinds.
 This follows the pattern of creating a virtual Python environment, installing dependencies, running the main file, and exploring the output files.
-A bried Installation instructions can be found in [Setup](#setup), and use of the scripts can be found in [Execution](#execution).
+Brief installation instructions can be found in [Setup](#setup), and use of the scripts can be found in [Execution](#execution).
 
 ### Setup
 

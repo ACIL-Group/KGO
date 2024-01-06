@@ -32,8 +32,8 @@ from pathlib import Path
 data_dir = Path('data/')
 
 # Declare all of the data files used
-node_files_raw = ['_dystonia_nodes.csv','_dystonia_proteins_nodes.csv', '_dystonia_genes_nodes.csv', '_dystonia_diseases_nodes.csv', '_dystonia_phenotypes_nodes.csv', '_dystonia_inheritance_nodes.csv', '_dystonia_proteins_GO_CC.csv', '_dystonia_proteins_GO_MF.csv', '_dystonia_proteins_GO_BP.csv']
-edge_files_raw = ['_dystonia_edges.csv','_dystonia_phenotypes_edges.csv', '_dystonia_gene_to_protein_edges.csv', '_dystonia_disease_caused_by_gene_edges.csv', '_dystonia_diseases_is_a_disease_edges.csv', '_dystonia_inheritance_edges.csv', '_dystonia_protein_GO_edges.csv']
+node_files_raw = ['dystonia_nodes.csv','dystonia_proteins_nodes.csv', 'dystonia_genes_nodes.csv', 'dystonia_diseases_nodes.csv', 'dystonia_phenotypes_nodes.csv', 'dystonia_inheritance_nodes.csv', 'dystonia_proteins_GO_CC.csv', 'dystonia_proteins_GO_MF.csv', 'dystonia_proteins_GO_BP.csv']
+edge_files_raw = ['dystonia_edges.csv','dystonia_phenotypes_edges.csv', 'dystonia_gene_to_protein_edges.csv', 'dystonia_disease_caused_by_gene_edges.csv', 'dystonia_diseases_is_a_disease_edges.csv', 'dystonia_inheritance_edges.csv', 'dystonia_protein_GO_edges.csv']
 
 # Get the full path for each data file
 node_files = [data_dir.joinpath(node_file) for node_file in node_files_raw]
@@ -232,11 +232,11 @@ def plot_graph(G):
         else:
             node_colors.append('gray')  # Default color for unknown values
     # Write the graph to a GraphML file
-    nx.write_graphml(G, '_dystonia_graph.graphml')
+    nx.write_graphml(G, 'dystonia_graph.graphml')
     # Draw a low-resolution graph on the console with node colors
     nx.draw(G, node_color=node_colors)
     # Save the low-resolution graph to disk
-    plt.savefig('_low_resolution_dystonia_graph.png')
+    plt.savefig('low_resolution_dystonia_graph.png')
     return
 
 
@@ -389,9 +389,9 @@ if __name__ == "__main__":
     g = add_edges_to_RDF_graph(g)
 
     # Serialize the updated RDF graph to an OWL file
-    file_out = '_dystonia.owl'
+    file_out = 'dystonia.owl'
     g.serialize(file_out, format="turtle")
     print('Graph and Ontology complete.')
-    print('_dystonia_graph.graphml has been written to file as a GraphML file')
-    print('_low_resolution_dystonia_graph.png has been written to file as a PNG file')
-    print('_dystonia.owl has been written to file as an ontology')
+    print('dystonia_graph.graphml has been written to file as a GraphML file')
+    print('low_resolution_dystonia_graph.png has been written to file as a PNG file')
+    print('dystonia.owl has been written to file as an ontology')

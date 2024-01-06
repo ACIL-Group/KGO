@@ -32,7 +32,7 @@ Brief installation instructions can be found in [Setup](#setup), and use of the 
 
 Create and activate a virtual Python environment with your favorite tool (e.g., `conda`, `mamba`, or `venv`).
 
-With `conda`:
+For example, with `conda`:
 
 ```shell
 conda create -n kgo python=3.11

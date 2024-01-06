@@ -39,6 +39,11 @@ edge_files_raw = ['dystonia_edges.csv','dystonia_phenotypes_edges.csv', 'dystoni
 node_files = [data_dir.joinpath(node_file) for node_file in node_files_raw]
 edge_files = [data_dir.joinpath(edge_file) for edge_file in edge_files_raw]
 
+# Ouptut files
+out_graph_file = "dystonia_graph.graphml"
+out_graph_image = "low_resolution_dystonia_graph.png"
+out_ontology = "dystonia.owl"
+
 ########################################################
 # Procedures go here                                   #
 ########################################################
@@ -232,11 +237,11 @@ def plot_graph(G):
         else:
             node_colors.append('gray')  # Default color for unknown values
     # Write the graph to a GraphML file
-    nx.write_graphml(G, 'dystonia_graph.graphml')
+    nx.write_graphml(G, out_graph_file)
     # Draw a low-resolution graph on the console with node colors
     nx.draw(G, node_color=node_colors)
     # Save the low-resolution graph to disk
-    plt.savefig('low_resolution_dystonia_graph.png')
+    plt.savefig(out_graph_image)
     return
 
 
@@ -389,9 +394,8 @@ if __name__ == "__main__":
     g = add_edges_to_RDF_graph(g)
 
     # Serialize the updated RDF graph to an OWL file
-    file_out = 'dystonia.owl'
-    g.serialize(file_out, format="turtle")
+    g.serialize(out_ontology, format="turtle")
     print('Graph and Ontology complete.')
-    print('dystonia_graph.graphml has been written to file as a GraphML file')
-    print('low_resolution_dystonia_graph.png has been written to file as a PNG file')
-    print('dystonia.owl has been written to file as an ontology')
+    print(f'- {out_graph_file} has been written to file as a GraphML file')
+    print(f'- {out_graph_image} has been written to file as a PNG file')
+    print(f'- {out_ontology} has been written to file as an ontology')

@@ -1,12 +1,14 @@
 """
-NetworkX Graph Generation Script
+    NetworkX Graph Generation Script
 
+# Description
 This script imports data from CSV files, creates a NetworkX graph, and performs operations on the graph.
 
-Usage:
-- Make sure to change the working directory to where your data is located before running this script.
+# Usage
+- Make sure to run this file from the top of the repository directory.
 - Ensure that the required data files are in the specified directory.
 
+# Attribution
 Author: Daniel B. Hier MD
 """
 
@@ -16,39 +18,56 @@ Author: Daniel B. Hier MD
 
 import pandas as pd
 import networkx as nx
-import os
 from rdflib import Graph, Namespace, RDF, RDFS, OWL, XSD, Literal
 import matplotlib.pyplot as plt
 from pathlib import Path
-
-# Change the working directory to where your data is located
-# os.chdir('/Users/danielhier/desktop/networkx')
 
 ########################################################
 # Data Files                                           #
 ########################################################
 
 # Point to the location where the data is located
-data_dir = Path('data/')
+data_dir = Path("data/")
+
+# Ouptut files
+out_graph_file = Path("dystonia_graph.graphml")
+out_graph_image = Path("low_resolution_dystonia_graph.png")
+out_ontology = Path("dystonia.owl")
 
 # Declare all of the data files used
-node_files_raw = ['dystonia_nodes.csv','dystonia_proteins_nodes.csv', 'dystonia_genes_nodes.csv', 'dystonia_diseases_nodes.csv', 'dystonia_phenotypes_nodes.csv', 'dystonia_inheritance_nodes.csv', 'dystonia_proteins_GO_CC.csv', 'dystonia_proteins_GO_MF.csv', 'dystonia_proteins_GO_BP.csv']
-edge_files_raw = ['dystonia_edges.csv','dystonia_phenotypes_edges.csv', 'dystonia_gene_to_protein_edges.csv', 'dystonia_disease_caused_by_gene_edges.csv', 'dystonia_diseases_is_a_disease_edges.csv', 'dystonia_inheritance_edges.csv', 'dystonia_protein_GO_edges.csv']
+node_files_raw = [
+    'dystonia_nodes.csv',
+    'dystonia_proteins_nodes.csv',
+    'dystonia_genes_nodes.csv',
+    'dystonia_diseases_nodes.csv',
+    'dystonia_phenotypes_nodes.csv',
+    'dystonia_inheritance_nodes.csv',
+    'dystonia_proteins_GO_CC.csv',
+    'dystonia_proteins_GO_MF.csv',
+    'dystonia_proteins_GO_BP.csv',
+]
+
+edge_files_raw = [
+    'dystonia_edges.csv',
+    'dystonia_phenotypes_edges.csv',
+    'dystonia_gene_to_protein_edges.csv',
+    'dystonia_disease_caused_by_gene_edges.csv',
+    'dystonia_diseases_is_a_disease_edges.csv',
+    'dystonia_inheritance_edges.csv',
+    'dystonia_protein_GO_edges.csv',
+]
 
 # Get the full path for each data file
 node_files = [data_dir.joinpath(node_file) for node_file in node_files_raw]
 edge_files = [data_dir.joinpath(edge_file) for edge_file in edge_files_raw]
 
-# Ouptut files
-out_graph_file = "dystonia_graph.graphml"
-out_graph_image = "low_resolution_dystonia_graph.png"
-out_ontology = "dystonia.owl"
 
 ########################################################
 # Procedures go here                                   #
 ########################################################
 
-def add_data_properties(g):
+
+def add_data_properties(g: nx.Graph):
    # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -116,7 +135,7 @@ def add_data_properties(g):
     return (g)
 
 
-def add_object_properties (g):
+def add_object_properties (g: nx.Graph):
     ex = Namespace("http://example.org/")
     # Define an object property
     object_property_uri = ex['causes']
@@ -172,7 +191,11 @@ def add_object_properties (g):
     return g
 
 
-def create_networkx_graph(node_files, edge_files, G):
+def create_networkx_graph(
+    node_files: list[Path],
+    edge_files: list[Path],
+    G: nx.Graph
+):
     """
     Create a NetworkX graph from data files.
 
@@ -209,7 +232,7 @@ def create_networkx_graph(node_files, edge_files, G):
     return G
 
 
-def plot_graph(G):
+def plot_graph(G: nx.Graph):
     # Specify the figure size (adjust the values as needed)
     plt.figure(figsize=(15, 15))
     # Get the 'supernode' attribute values for all nodes
@@ -245,7 +268,7 @@ def plot_graph(G):
     return
 
 
-def add_data_properties_to_nodes(g):
+def add_data_properties_to_nodes(g: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -311,7 +334,7 @@ def add_data_properties_to_nodes(g):
     return g
 
 
-def add_edges_to_RDF_graph(g):
+def add_edges_to_RDF_graph(g: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -349,7 +372,7 @@ def add_edges_to_RDF_graph(g):
     return(g)
 
 
-def add_nodes_to_RDF_graph(g):
+def add_nodes_to_RDF_graph(g: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)

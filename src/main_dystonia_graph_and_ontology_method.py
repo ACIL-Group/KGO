@@ -27,12 +27,13 @@ from pathlib import Path
 ########################################################
 
 # Point to the location where the data is located
-data_dir = Path("data/")
+data_dir = Path("data")
+out_dir = Path("out")
 
 # Ouptut files
-out_graph_file = Path("dystonia_graph.graphml")
-out_graph_image = Path("low_resolution_dystonia_graph.png")
-out_ontology = Path("dystonia.owl")
+out_graph_file = out_dir.joinpath("dystonia_graph.graphml")
+out_graph_image = out_dir.joinpath("low_resolution_dystonia_graph.png")
+out_ontology = out_dir.joinpath("dystonia.owl")
 
 # Declare all of the data files used
 node_files_raw = [

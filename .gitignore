@@ -3,9 +3,8 @@
 # -----------------------------------------------------------------------------
 
 # Generated files
-/dystonia_graph.graphml
-/dystonia.owl
-/low_resolution_dystonia_graph.png
+out/*
+!out/.gitkeep
 
 # -----------------------------------------------------------------------------
 # PYTHON IGNORES

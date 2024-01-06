@@ -18,8 +18,9 @@ This is demonstrated with a single `data -> script -> output` workflow.
 
 The project is laid out as follows:
 
-- `main_dystonia_graph_and_ontology_method.py`: the main Python file running the experiment.
+- `src/main_dystonia_graph_and_ontology_method.py`: the main Python file running the experiment.
 - `data/`: the data files necessary to run the experiment.
+- `out/`: the destination for the generated files from the experiment.
 - `example_output/`: example files demonstrating the output of the experiment.
 
 ## Usage
@@ -47,11 +48,12 @@ pip install -r requirements.txt
 
 ### Execution
 
-The entire experiment lives at the top of the project in a file called `main_dystonia_graph_and_ontology_method.py`.
+The entire experiment lives in a file called `src/main_dystonia_graph_and_ontology_method.py`.
 To execute it, simply run the file through the Python interpreter while in your virtual environment as follows:
 
 ```shell
-python main_dystonia_graph_and_ontology_method.py
+python src/main_dystonia_graph_and_ontology_method.py
 ```
 
-Three files are generated, examples of which can be seen in the `example_output/` directory.
+Three files are generated and saved to the `out/` directory.
+Examples of the files that should be generated can be seen in the `example_output/` directory.

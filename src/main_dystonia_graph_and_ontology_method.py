@@ -68,7 +68,7 @@ edge_files = [data_dir.joinpath(edge_file) for edge_file in edge_files_raw]
 ########################################################
 
 
-def add_data_properties(g: nx.Graph):
+def add_data_properties(g: Graph):
    # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -136,7 +136,7 @@ def add_data_properties(g: nx.Graph):
     return (g)
 
 
-def add_object_properties (g: nx.Graph):
+def add_object_properties (g: Graph):
     ex = Namespace("http://example.org/")
     # Define an object property
     object_property_uri = ex['causes']
@@ -269,7 +269,7 @@ def plot_graph(G: nx.Graph):
     return
 
 
-def add_data_properties_to_nodes(g: nx.Graph):
+def add_data_properties_to_nodes(g: Graph, G: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -335,7 +335,7 @@ def add_data_properties_to_nodes(g: nx.Graph):
     return g
 
 
-def add_edges_to_RDF_graph(g: nx.Graph):
+def add_edges_to_RDF_graph(g: Graph, G: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -373,7 +373,7 @@ def add_edges_to_RDF_graph(g: nx.Graph):
     return(g)
 
 
-def add_nodes_to_RDF_graph(g: nx.Graph):
+def add_nodes_to_RDF_graph(g: Graph, G: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
@@ -396,10 +396,7 @@ def add_nodes_to_RDF_graph(g: nx.Graph):
     return(g)
 
 
-########################################################
-# Main Program Starts here                             #
-########################################################
-if __name__ == "__main__":
+def main():
     # G is networkX graph
     # g is an RDF graph
     # Declare a NetworkX graph
@@ -413,9 +410,9 @@ if __name__ == "__main__":
     g = Graph()
     g = add_object_properties(g)
     g = add_data_properties(g)
-    g = add_data_properties_to_nodes(g)
-    g = add_nodes_to_RDF_graph(g)
-    g = add_edges_to_RDF_graph(g)
+    g = add_data_properties_to_nodes(g, G)
+    g = add_nodes_to_RDF_graph(g, G)
+    g = add_edges_to_RDF_graph(g, G)
 
     # Serialize the updated RDF graph to an OWL file
     g.serialize(out_ontology, format="turtle")
@@ -423,3 +420,14 @@ if __name__ == "__main__":
     print(f'- {out_graph_file} has been written to file as a GraphML file')
     print(f'- {out_graph_image} has been written to file as a PNG file')
     print(f'- {out_ontology} has been written to file as an ontology')
+
+    return
+
+
+########################################################
+# Main Program Starts here                             #
+########################################################
+
+if __name__ == "__main__":
+
+    main()

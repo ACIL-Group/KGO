@@ -22,6 +22,10 @@ from rdflib import Graph, Namespace, RDF, RDFS, OWL, XSD, Literal
 import matplotlib.pyplot as plt
 from pathlib import Path
 
+from typing import (
+    List,
+)
+
 ########################################################
 # Data Files                                           #
 ########################################################
@@ -193,8 +197,8 @@ def add_object_properties (g: Graph):
 
 
 def create_networkx_graph(
-    node_files: list[Path],
-    edge_files: list[Path],
+    node_files: List[Path],
+    edge_files: List[Path],
     G: nx.Graph
 ):
     """

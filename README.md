@@ -2,6 +2,19 @@
 
 **K**owledge **G**raphs and **O**ntologies: code and data for the paper *Transformation of Biomedical Data into Knowledge Graphs and Ontologies*.
 
+| **Zenodo DOI** | **Test Status** | **Coverage** |
+|:--------------:|:---------------:|:------------:|
+| [![DOI][zenodo-img]][zenodo-url] | [![Build Status][ci-img]][ci-url] | [![Codecov][codecov-img]][codecov-url] |
+
+[zenodo-img]: https://zenodo.org/badge/DOI/10.5281/zenodo.10463050.svg
+[zenodo-url]: https://doi.org/10.5281/zenodo.10463050
+
+[ci-img]: https://github.com/ACIL-Group/KGO/actions/workflows/Test.yml/badge.svg
+[ci-url]: https://github.com/ACIL-Group/KGO/actions/workflows/Test.yml
+
+[codecov-img]: https://codecov.io/gh/ACIL-Group/KGO/branch/main/graph/badge.svg
+[codecov-url]: https://codecov.io/gh/ACIL-Group/KGO
+
 ## Table of Contents
 
 - [KGO](#kgo)

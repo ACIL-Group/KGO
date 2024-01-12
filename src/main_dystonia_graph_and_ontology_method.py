@@ -73,7 +73,7 @@ edge_files = [data_dir.joinpath(edge_file) for edge_file in edge_files_raw]
 
 
 def add_data_properties(g: Graph):
-   # Define the namespaces
+    # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
     # Define individual URIs for data properties
@@ -136,18 +136,18 @@ def add_data_properties(g: Graph):
 
     g.add((gene_MIM_uri, RDF.type, OWL.DatatypeProperty))
     g.add((gene_MIM_uri, RDFS.domain, ex.disease))
-    g.add((gene_MIM_uri, RDFS.range, XSD.string ))
+    g.add((gene_MIM_uri, RDFS.range, XSD.string))
+
     return (g)
 
 
-def add_object_properties (g: Graph):
+def add_object_properties(g: Graph):
     ex = Namespace("http://example.org/")
     # Define an object property
     object_property_uri = ex['causes']
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['gene']))
     g.add((object_property_uri, RDFS.range, ex['disease']))
-
 
     obj_property_uri = ex['located_in']
     # Declare the object property
@@ -161,7 +161,6 @@ def add_object_properties (g: Graph):
     # Declare the domain and range of the object property
     g.add((obj_property_uri, RDFS.domain, ex['disease']))
     g.add((obj_property_uri, RDFS.range, ex['phenotype']))
-
 
     obj_property_uri = ex['has_inheritance']
     g.add((obj_property_uri, RDF.type, OWL.ObjectProperty))
@@ -183,16 +182,15 @@ def add_object_properties (g: Graph):
     g.add((object_property_uri, RDFS.domain, ex['protein']))
     g.add((object_property_uri, RDFS.range, ex['MF']))
 
-
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['protein']))
     g.add((object_property_uri, RDFS.range, ex['BP']))
-
 
     object_property_uri = ex['is_involved_in']
     g.add((object_property_uri, RDF.type, RDF.Property))
     g.add((object_property_uri, RDFS.domain, ex['protein']))
     g.add((object_property_uri, RDFS.range, ex['BP']))
+
     return g
 
 
@@ -270,6 +268,7 @@ def plot_graph(G: nx.Graph):
     nx.draw(G, node_color=node_colors)
     # Save the low-resolution graph to disk
     plt.savefig(out_graph_image)
+
     return
 
 
@@ -284,8 +283,8 @@ def add_data_properties_to_nodes(g: Graph, G: nx.Graph):
 
         if 'supranode' in node_attributes and node_attributes['supranode'] == 'disease':
             disease_name = node_attributes.get('disease_name', None)
-            node_name =str(node_name)
-            disease_name =str(disease_name)
+            node_name = str(node_name)
+            disease_name = str(disease_name)
             if disease_name:
                 individual_uri = ex[node_name]
                 data_property_uri = ex['disease_name']
@@ -295,14 +294,14 @@ def add_data_properties_to_nodes(g: Graph, G: nx.Graph):
         node_name = node_data[0]
         node_attributes = node_data[1]
         if 'supranode' in node_attributes and node_attributes['supranode'] == 'protein':
-            protein_length= node_attributes.get('protein_length', None)
+            protein_length = node_attributes.get('protein_length', None)
             protein_weight = node_attributes.get('protein_weight', None)
-            protein_name =   node_attributes.get('protein_name', None)
-            node_name =str(node_name)
-            protein_length =str(protein_length)
+            protein_name = node_attributes.get('protein_name', None)
+            node_name = str(node_name)
+            protein_length = str(protein_length)
             protein_weight = str(protein_weight)
             protein_name = str(protein_name)
-            #print(node_name, protein_length, protein_weight, protein_name)
+            # print(node_name, protein_length, protein_weight, protein_name)
             individual_uri = ex[node_name]
             data_property_uri = ex['protein_length']
             g.add((individual_uri, data_property_uri, Literal(protein_length, datatype=XSD.string)))
@@ -310,7 +309,6 @@ def add_data_properties_to_nodes(g: Graph, G: nx.Graph):
             g.add((individual_uri, data_property_uri, Literal(protein_weight, datatype=XSD.string)))
             data_property_uri = ex['protein_name']
             g.add((individual_uri, data_property_uri, Literal(protein_name, datatype=XSD.string)))
-
 
     # Iterate through the 'phenotype' nodes and add 'hpo_id' data property
     for node_data in G.nodes(data=True):
@@ -328,14 +326,15 @@ def add_data_properties_to_nodes(g: Graph, G: nx.Graph):
         if 'supranode' in node_attributes and node_attributes['supranode'] == 'gene':
             gene_MIM = node_attributes.get('gene_MIM', None)
             chromosome_location = node_attributes.get('chromosome_location', None)
-            node_name =str(node_name)
-            gene_MIM =str(gene_MIM)
+            node_name = str(node_name)
+            gene_MIM = str(gene_MIM)
             chromosome_location = str(chromosome_location)
             individual_uri = ex[node_name]
             data_property_uri = ex['gene_MIM']
             g.add((individual_uri, data_property_uri, Literal(gene_MIM, datatype=XSD.string)))
             data_property_uri = ex['chromosome_location']
             g.add((individual_uri, data_property_uri, Literal(chromosome_location, datatype=XSD.string)))
+
     return g
 
 
@@ -343,21 +342,24 @@ def add_edges_to_RDF_graph(g: Graph, G: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
-    #Add object relationships
-    start_nodes_set=set()
-    end_nodes_set=set()
+
+    # Add object relationships
+    start_nodes_set = set()
+    end_nodes_set = set()
     all_edges_set = set()
     for e in G.edges.data():
-        start_node= e[0]
+        start_node = e[0]
         start_nodes_set.add(start_node)
-        end_node=e[1]
+        end_node = e[1]
         end_nodes_set.add(end_node)
-        edge_name = e[2].get('edge_name',0)
+        edge_name = e[2].get('edge_name', 0)
+
     # Define a namespace for your object properties
     obj_property_ns = Namespace("http://example.org/object_properties#")
     g.bind("objprop", obj_property_ns)
-    source_node_set=set()
-    target_node_set=set()
+    source_node_set = set()
+    target_node_set = set()
+
     # Iterate through the edges in your NetworkX graph G
     for edge in G.edges(data=True):
         source_node = str(edge[0])
@@ -374,30 +376,41 @@ def add_edges_to_RDF_graph(g: Graph, G: nx.Graph):
 
         # Add the edge as a triple in the RDF graph
         g.add((source_uri, obj_property_uri, target_uri))
-    return(g)
+
+    return g
 
 
 def add_nodes_to_RDF_graph(g: Graph, G: nx.Graph):
     # Define the namespaces
     ex = Namespace("http://example.org/")
     g.bind("ex", ex)
-    supranodes = [ex["phenotype"],ex["gene"],ex["protein"] , ex['CC'], ex['BP'], ex['MF'], ex['inheritance'], ex['disease']]
+    supranodes = [
+        ex["phenotype"],
+        ex["gene"],
+        ex["protein"],
+        ex['CC'],
+        ex['BP'],
+        ex['MF'],
+        ex['inheritance'],
+        ex['disease'],
+    ]
 
-    #Add supranodes
+    # Add supranodes
     for c in supranodes:
-        if c !='':
+        if c != '':
             g.add((c, RDF.type, OWL.Class))
     for n in G.nodes.data():
-        category=''
-        category = n[1].get('category',0)
-        if category =='instance':
-                supranode = n[1].get('supranode',0)
-                individual_name = str(n[0])
-                ###print(individual_name)
-                individual_name_uri = ex[individual_name]
-                supranode_uri =ex[supranode]
-                g.add((individual_name_uri, RDF.type,supranode_uri ))
-    return(g)
+        category = ''
+        category = n[1].get('category', 0)
+        if category == 'instance':
+            supranode = n[1].get('supranode', 0)
+            individual_name = str(n[0])
+            # print(individual_name)
+            individual_name_uri = ex[individual_name]
+            supranode_uri = ex[supranode]
+            g.add((individual_name_uri, RDF.type, supranode_uri))
+
+    return g
 
 
 def main():

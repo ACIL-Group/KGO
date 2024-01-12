@@ -1,5 +1,5 @@
 """
-    test_cvi.py
+    test_experiments.py
 
 # Description
 Runs each experiment within pytest to verify script functionality during CI.
@@ -22,5 +22,11 @@ class TestExperiments:
         """
         Tests the main function of `main_dystonia_graph_and_ontology_method.py`.
         """
+
+        # Include the test code definitions
         from src.main_dystonia_graph_and_ontology_method import main
+
+        # Run the experiment
         main()
+
+        return
